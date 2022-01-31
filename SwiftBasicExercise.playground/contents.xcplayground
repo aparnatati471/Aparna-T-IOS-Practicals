@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Arrays'/>
+        <page name='ControlFlow'/>
+        <page name='Dictionart_First'/>
+        <page name='Dictionary_Fourth_Fifth'/>
+        <page name='Dictionary_Second_Third'/>
+        <page name='Dictionary_Sixth'/>
+        <page name='HelloWorld'/>
+        <page name='Operators'/>
+        <page name='Optionals'/>
+        <page name='StringCharacters'/>
+        <page name='LogicalQuestions'/>
+        <page name='Variables'/>
+    </pages>
+</playground>
