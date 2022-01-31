@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='VariableConstantLiteralsDemo'/>
+        <page name='HelloWorldDemo'/>
+        <page name='OperatorsDemo'/>
+        <page name='DecisionMakingDemo'/>
+        <page name='LoopDemo'/>
+        <page name='OptionalsDemo'/>
+        <page name='TuplesDemo'/>
+        <page name='StringDemo'/>
+        <page name='CollectionsDemo'/>
+        <page name='FunctionDemo'/>
+        <page name='ClosuresDemo'/>
+    </pages>
+</playground>
