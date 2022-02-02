@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='CollectionsDemo'/>
+        <page name='FunctionsDemo'/>
+        <page name='EnumerationsDemo'/>
+        <page name='StructDemo'/>
+        <page name='ClassDemo'/>
+        <page name='ClosuresDemo'/>
+        <page name='PropertiesDemo'/>
+        <page name='InheritanceDemo'/>
+        <page name='MethodsDemo'/>
+        <page name='SubscriptsDemo'/>
+        <page name='InitializersDemo'/>
+        <page name='OptionalChainingDemo'/>
+        <page name='ErrorHandlingDemo'/>
+        <page name='TypeCastingDemo'/>
+        <page name='NestedTypeDemo'/>
+        <page name='ExtensionsDemo'/>
+        <page name='ProtocolsDemo'/>
+        <page name='DeInitializerDemo'/>
+        <page name='ARCDemo'/>
+        <page name='MutatingFunctionsDemo'/>
+        <page name='AccessModifiersDemo'/>
+        <page name='WeakUnknownSelfDemo'/>
+    </pages>
+</playground>
