@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='ExceptionExercise_5.1'/>
+        <page name='ExceptionExercise_5.2'/>
+        <page name='ExtensionExercise_6.1'/>
+        <page name='PropertiesExercise_4.1'/>
+        <page name='PropertiesExercise_4.2'/>
+        <page name='PropertiesExercise_4.3'/>
+        <page name='PropertiesExercise_4.4'/>
+        <page name='PropertiesExercise_4.5'/>
+        <page name='PropertiesExercise_4.6'/>
+        <page name='PropertiesExercise_4.7'/>
+        <page name='InheritanceExercise_4.8'/>
+        <page name='InheritanceExercise_4.9'/>
+        <page name='InheritanceExercise_4.10'/>
+        <page name='InheritanceExercise_4.11'/>
+        <page name='InheritanceExercise_4.12'/>
+        <page name='SubscriptExercise_4.13'/>
+        <page name='SubscriptExercise_4.14'/>
+        <page name='SubscriptExercise_4.15'/>
+        <page name='SubscriptExercise_4.16'/>
+        <page name='SubscriptExercise_4.17'/>
+        <page name='SubscriptExercise_4.18'/>
+        <page name='SubscriptExercise_4.19'/>
+    </pages>
+</playground>
