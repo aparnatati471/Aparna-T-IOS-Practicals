@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x0I-dZ-NzY">
-                                <rect key="frame" x="49" y="419" width="316" height="58"/>
+                                <rect key="frame" x="109.5" y="419" width="195.5" height="58"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="49"/>
                                 <color key="textColor" red="0.0" green="0.17344341569999999" blue="0.36468521590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -28,9 +28,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="x0I-dZ-NzY" secondAttribute="trailing" constant="49" id="9KK-lo-Z4j"/>
-                            <constraint firstItem="x0I-dZ-NzY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="375" id="YQh-QC-k5K"/>
-                            <constraint firstItem="x0I-dZ-NzY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="49" id="vqU-7k-2EO"/>
+                            <constraint firstItem="x0I-dZ-NzY" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="PBY-yi-Hxp"/>
+                            <constraint firstItem="x0I-dZ-NzY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="yQN-Q9-yZd"/>
                         </constraints>
                     </view>
                 </viewController>
