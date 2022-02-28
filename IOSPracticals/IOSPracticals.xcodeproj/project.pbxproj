@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A42637E827CDF0570061CAFB /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42637E727CDF0570061CAFB /* SignupViewController.swift */; };
+		A42637EA27CE33B00061CAFB /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42637E927CE33B00061CAFB /* PageViewController.swift */; };
 		A42C498927C4C66F00FBCBBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42C498827C4C66F00FBCBBB /* AppDelegate.swift */; };
 		A42C498B27C4C66F00FBCBBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42C498A27C4C66F00FBCBBB /* SceneDelegate.swift */; };
 		A42C498D27C4C66F00FBCBBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42C498C27C4C66F00FBCBBB /* ViewController.swift */; };
 		A42C499227C4C67000FBCBBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42C499127C4C67000FBCBBB /* Assets.xcassets */; };
 		A42C499527C4C67000FBCBBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42C499327C4C67000FBCBBB /* LaunchScreen.storyboard */; };
-		A480AC3F27C8FD0200E80253 /* UIComponents.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A480AC3E27C8FD0200E80253 /* UIComponents.storyboard */; };
+		A448E70927CF3F2700491420 /* VideoListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448E70827CF3F2700491420 /* VideoListScreen.swift */; };
+		A448E70B27CF40DE00491420 /* UITableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A448E70A27CF40DE00491420 /* UITableView.storyboard */; };
+		A448E70D27CF496100491420 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448E70C27CF496100491420 /* VideoCell.swift */; };
+		A448E70F27CF626E00491420 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448E70E27CF626E00491420 /* Video.swift */; };
+		A448E71127CF6BD500491420 /* UITableViewWithSections.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A448E71027CF6BD500491420 /* UITableViewWithSections.storyboard */; };
+		A448E71327CF6E3800491420 /* TableViewControllerSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448E71227CF6E3800491420 /* TableViewControllerSections.swift */; };
+		A448E71527CF74C300491420 /* MobileBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448E71427CF74C300491420 /* MobileBrand.swift */; };
+		A49EDD9827D07F92003C1A29 /* ScrollViewDemo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49EDD9727D07F92003C1A29 /* ScrollViewDemo.storyboard */; };
+		A49EDD9C27D0ADA1003C1A29 /* TableViewWithXib.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49EDD9B27D0ADA1003C1A29 /* TableViewWithXib.storyboard */; };
+		A49EDD9E27D0B4C7003C1A29 /* TableViewControllerXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49EDD9D27D0B4C7003C1A29 /* TableViewControllerXib.swift */; };
+		A49EDDA227D0B5B6003C1A29 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49EDDA027D0B5B6003C1A29 /* TableViewCell.swift */; };
+		A49EDDA327D0B5B6003C1A29 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A49EDDA127D0B5B6003C1A29 /* TableViewCell.xib */; };
+		A4AE5F2327CCA605000F8F88 /* PracticalOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4AE5F2227CCA605000F8F88 /* PracticalOne.storyboard */; };
 		A4B47EA627C60AD500457773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B47EA527C60AD500457773 /* Main.storyboard */; };
 		A4B47EA827C6169D00457773 /* ViewControllerForLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B47EA727C6169D00457773 /* ViewControllerForLogin.swift */; };
 		A4B47EAA27C62C0600457773 /* ViewControllerForSignup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B47EA927C62C0500457773 /* ViewControllerForSignup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A42637E727CDF0570061CAFB /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		A42637E927CE33B00061CAFB /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		A42C498527C4C66F00FBCBBB /* IOSPracticals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSPracticals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42C498827C4C66F00FBCBBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A42C498A27C4C66F00FBCBBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,7 +42,19 @@
 		A42C499127C4C67000FBCBBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A42C499427C4C67000FBCBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A42C499627C4C67000FBCBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A480AC3E27C8FD0200E80253 /* UIComponents.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UIComponents.storyboard; sourceTree = "<group>"; };
+		A448E70827CF3F2700491420 /* VideoListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListScreen.swift; sourceTree = "<group>"; };
+		A448E70A27CF40DE00491420 /* UITableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UITableView.storyboard; sourceTree = "<group>"; };
+		A448E70C27CF496100491420 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		A448E70E27CF626E00491420 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		A448E71027CF6BD500491420 /* UITableViewWithSections.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UITableViewWithSections.storyboard; sourceTree = "<group>"; };
+		A448E71227CF6E3800491420 /* TableViewControllerSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerSections.swift; sourceTree = "<group>"; };
+		A448E71427CF74C300491420 /* MobileBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileBrand.swift; sourceTree = "<group>"; };
+		A49EDD9727D07F92003C1A29 /* ScrollViewDemo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScrollViewDemo.storyboard; sourceTree = "<group>"; };
+		A49EDD9B27D0ADA1003C1A29 /* TableViewWithXib.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewWithXib.storyboard; sourceTree = "<group>"; };
+		A49EDD9D27D0B4C7003C1A29 /* TableViewControllerXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerXib.swift; sourceTree = "<group>"; };
+		A49EDDA027D0B5B6003C1A29 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A49EDDA127D0B5B6003C1A29 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		A4AE5F2227CCA605000F8F88 /* PracticalOne.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PracticalOne.storyboard; sourceTree = "<group>"; };
 		A4B47EA527C60AD500457773 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A4B47EA727C6169D00457773 /* ViewControllerForLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForLogin.swift; sourceTree = "<group>"; };
 		A4B47EA927C62C0500457773 /* ViewControllerForSignup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForSignup.swift; sourceTree = "<group>"; };
@@ -62,6 +90,7 @@
 		A42C498727C4C66F00FBCBBB /* IOSPracticals */ = {
 			isa = PBXGroup;
 			children = (
+				A49EDD9F27D0B591003C1A29 /* CustomViewCell */,
 				A4B47EA527C60AD500457773 /* Main.storyboard */,
 				A42C498827C4C66F00FBCBBB /* AppDelegate.swift */,
 				A42C498A27C4C66F00FBCBBB /* SceneDelegate.swift */,
@@ -71,9 +100,30 @@
 				A42C499627C4C67000FBCBBB /* Info.plist */,
 				A4B47EA727C6169D00457773 /* ViewControllerForLogin.swift */,
 				A4B47EA927C62C0500457773 /* ViewControllerForSignup.swift */,
-				A480AC3E27C8FD0200E80253 /* UIComponents.storyboard */,
+				A4AE5F2227CCA605000F8F88 /* PracticalOne.storyboard */,
+				A42637E727CDF0570061CAFB /* SignupViewController.swift */,
+				A42637E927CE33B00061CAFB /* PageViewController.swift */,
+				A448E70827CF3F2700491420 /* VideoListScreen.swift */,
+				A448E70A27CF40DE00491420 /* UITableView.storyboard */,
+				A448E70C27CF496100491420 /* VideoCell.swift */,
+				A448E70E27CF626E00491420 /* Video.swift */,
+				A448E71027CF6BD500491420 /* UITableViewWithSections.storyboard */,
+				A448E71227CF6E3800491420 /* TableViewControllerSections.swift */,
+				A448E71427CF74C300491420 /* MobileBrand.swift */,
+				A49EDD9727D07F92003C1A29 /* ScrollViewDemo.storyboard */,
+				A49EDD9B27D0ADA1003C1A29 /* TableViewWithXib.storyboard */,
+				A49EDD9D27D0B4C7003C1A29 /* TableViewControllerXib.swift */,
 			);
 			path = IOSPracticals;
+			sourceTree = "<group>";
+		};
+		A49EDD9F27D0B591003C1A29 /* CustomViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A49EDDA027D0B5B6003C1A29 /* TableViewCell.swift */,
+				A49EDDA127D0B5B6003C1A29 /* TableViewCell.xib */,
+			);
+			path = CustomViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +186,13 @@
 			files = (
 				A42C499527C4C67000FBCBBB /* LaunchScreen.storyboard in Resources */,
 				A42C499227C4C67000FBCBBB /* Assets.xcassets in Resources */,
-				A480AC3F27C8FD0200E80253 /* UIComponents.storyboard in Resources */,
+				A448E71127CF6BD500491420 /* UITableViewWithSections.storyboard in Resources */,
 				A4B47EA627C60AD500457773 /* Main.storyboard in Resources */,
+				A49EDDA327D0B5B6003C1A29 /* TableViewCell.xib in Resources */,
+				A49EDD9C27D0ADA1003C1A29 /* TableViewWithXib.storyboard in Resources */,
+				A448E70B27CF40DE00491420 /* UITableView.storyboard in Resources */,
+				A49EDD9827D07F92003C1A29 /* ScrollViewDemo.storyboard in Resources */,
+				A4AE5F2327CCA605000F8F88 /* PracticalOne.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,10 +204,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A42C498D27C4C66F00FBCBBB /* ViewController.swift in Sources */,
+				A42637E827CDF0570061CAFB /* SignupViewController.swift in Sources */,
+				A49EDD9E27D0B4C7003C1A29 /* TableViewControllerXib.swift in Sources */,
+				A448E71327CF6E3800491420 /* TableViewControllerSections.swift in Sources */,
+				A448E70D27CF496100491420 /* VideoCell.swift in Sources */,
+				A49EDDA227D0B5B6003C1A29 /* TableViewCell.swift in Sources */,
 				A4B47EAA27C62C0600457773 /* ViewControllerForSignup.swift in Sources */,
+				A448E70927CF3F2700491420 /* VideoListScreen.swift in Sources */,
 				A42C498927C4C66F00FBCBBB /* AppDelegate.swift in Sources */,
+				A448E71527CF74C300491420 /* MobileBrand.swift in Sources */,
 				A4B47EA827C6169D00457773 /* ViewControllerForLogin.swift in Sources */,
 				A42C498B27C4C66F00FBCBBB /* SceneDelegate.swift in Sources */,
+				A42637EA27CE33B00061CAFB /* PageViewController.swift in Sources */,
+				A448E70F27CF626E00491420 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
