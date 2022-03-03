@@ -22,7 +22,7 @@
                                     <constraint firstAttribute="height" constant="43" id="Icd-3q-ahc"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Basic Auto Layout" cornerStyle="dynamic" titleAlignment="center">
+                                <buttonConfiguration key="configuration" style="filled" title="IOS(A)" cornerStyle="dynamic" titleAlignment="center">
                                     <backgroundConfiguration key="background" cornerRadius="20" strokeWidth="0.0"/>
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -35,7 +35,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BmR-M6-Omi">
                                 <rect key="frame" x="58.666666666666657" y="157" width="273" height="43"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Practical One">
+                                <buttonConfiguration key="configuration" style="filled" title="IOS(C) - One">
                                     <backgroundConfiguration key="background" cornerRadius="20"/>
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -97,11 +97,25 @@
                                     <segue destination="ZBE-pJ-fpE" kind="show" id="LGl-Px-grx"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G11-3s-gXH">
+                                <rect key="frame" x="58.666666666666657" y="472" width="273" height="43"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="IOS(C)- Two &amp; Three">
+                                    <backgroundConfiguration key="background" cornerRadius="20"/>
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="nPU-0h-imh" kind="show" id="WcA-YX-g2W"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="G11-3s-gXH" firstAttribute="centerX" secondItem="iTP-Wa-det" secondAttribute="centerX" id="2in-uw-gwX"/>
                             <constraint firstItem="BmR-M6-Omi" firstAttribute="width" secondItem="1wn-ns-fIy" secondAttribute="width" id="2tY-vm-2US"/>
                             <constraint firstItem="u7e-8g-9Ef" firstAttribute="top" secondItem="Iip-HH-dDZ" secondAttribute="bottom" constant="20" id="7mi-pd-oNS"/>
                             <constraint firstItem="Iip-HH-dDZ" firstAttribute="height" secondItem="jYV-7Q-oHh" secondAttribute="height" id="832-uT-Nrc"/>
@@ -118,6 +132,7 @@
                             <constraint firstItem="iTP-Wa-det" firstAttribute="width" secondItem="u7e-8g-9Ef" secondAttribute="width" id="ZpJ-7s-bXB"/>
                             <constraint firstItem="u7e-8g-9Ef" firstAttribute="centerX" secondItem="Iip-HH-dDZ" secondAttribute="centerX" id="aTb-nw-VqV"/>
                             <constraint firstItem="u7e-8g-9Ef" firstAttribute="width" secondItem="Iip-HH-dDZ" secondAttribute="width" id="eAk-IZ-ToW"/>
+                            <constraint firstItem="G11-3s-gXH" firstAttribute="width" secondItem="iTP-Wa-det" secondAttribute="width" id="eoY-lx-7LM"/>
                             <constraint firstItem="iTP-Wa-det" firstAttribute="height" secondItem="u7e-8g-9Ef" secondAttribute="height" id="fJ7-q5-hZA"/>
                             <constraint firstItem="BmR-M6-Omi" firstAttribute="height" secondItem="1wn-ns-fIy" secondAttribute="height" id="iiC-6z-w8U"/>
                             <constraint firstItem="1wn-ns-fIy" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.7" id="kWW-Gl-52L"/>
@@ -125,13 +140,15 @@
                             <constraint firstItem="iTP-Wa-det" firstAttribute="centerX" secondItem="u7e-8g-9Ef" secondAttribute="centerX" id="o4v-hX-Q1s"/>
                             <constraint firstItem="u7e-8g-9Ef" firstAttribute="height" secondItem="Iip-HH-dDZ" secondAttribute="height" id="pB2-Xa-Hah"/>
                             <constraint firstItem="jYV-7Q-oHh" firstAttribute="height" secondItem="BmR-M6-Omi" secondAttribute="height" id="xSb-gm-mzJ"/>
+                            <constraint firstItem="G11-3s-gXH" firstAttribute="top" secondItem="iTP-Wa-det" secondAttribute="bottom" constant="20" id="yNP-Ha-pMx"/>
+                            <constraint firstItem="G11-3s-gXH" firstAttribute="height" secondItem="iTP-Wa-det" secondAttribute="height" id="z3E-DT-TCO"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="cIv-lx-btF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="632" y="45"/>
+            <point key="canvasLocation" x="315" y="13"/>
         </scene>
         <!--TableViewWithXib-->
         <scene sceneID="DCo-v3-3Lc">
@@ -141,7 +158,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YEE-Hg-6ae" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1064" y="178"/>
+            <point key="canvasLocation" x="949" y="86"/>
         </scene>
         <!--ScrollViewDemo-->
         <scene sceneID="k8s-wG-FaY">
@@ -151,7 +168,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KSt-cn-pbB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="950" y="-403"/>
+            <point key="canvasLocation" x="907" y="45"/>
         </scene>
         <!--PracticalOne-->
         <scene sceneID="y6j-oq-obH">
@@ -161,7 +178,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="krM-UT-bdd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1148" y="-358"/>
+            <point key="canvasLocation" x="891" y="-60"/>
         </scene>
         <!--UITableViewWithSections-->
         <scene sceneID="fhV-Mn-Q42">
@@ -171,7 +188,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ttl-Lo-aDg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1330" y="-385"/>
+            <point key="canvasLocation" x="950" y="13"/>
         </scene>
         <!--UITableView-->
         <scene sceneID="YzA-iE-aWy">
@@ -181,7 +198,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cS0-jL-Rh9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1395" y="-331"/>
+            <point key="canvasLocation" x="922" y="-31"/>
+        </scene>
+        <!--UISwitchDemo-->
+        <scene sceneID="vFs-tV-gK9">
+            <objects>
+                <viewControllerPlaceholder storyboardName="UISwitchDemo" id="nPU-0h-imh" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="GAL-Tl-maB"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eVM-Gm-Dkk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="965" y="117"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OVd-K1-RRn">
@@ -289,7 +316,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZMV-BY-IS4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1506" y="45"/>
+            <point key="canvasLocation" x="1446" y="-140"/>
         </scene>
         <!--View Controller For Login-->
         <scene sceneID="gVS-Hj-dHZ">
@@ -770,7 +797,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UGF-Zl-Fwd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-17.39130434782609" y="45.535714285714285"/>
+            <point key="canvasLocation" x="-405" y="22"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
