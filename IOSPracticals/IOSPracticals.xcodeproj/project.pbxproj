@@ -26,6 +26,8 @@
 		A49EDD9E27D0B4C7003C1A29 /* TableViewControllerXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49EDD9D27D0B4C7003C1A29 /* TableViewControllerXib.swift */; };
 		A49EDDA227D0B5B6003C1A29 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49EDDA027D0B5B6003C1A29 /* TableViewCell.swift */; };
 		A49EDDA327D0B5B6003C1A29 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A49EDDA127D0B5B6003C1A29 /* TableViewCell.xib */; };
+		A4AD65A127DF67C9005C6B97 /* LifeCycleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4AD65A027DF67C9005C6B97 /* LifeCycleViewController.storyboard */; };
+		A4AD65A327DF6A27005C6B97 /* LifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AD65A227DF6A27005C6B97 /* LifeCycle.swift */; };
 		A4AE5F2327CCA605000F8F88 /* PracticalOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4AE5F2227CCA605000F8F88 /* PracticalOne.storyboard */; };
 		A4B47EA627C60AD500457773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B47EA527C60AD500457773 /* Main.storyboard */; };
 		A4B47EA827C6169D00457773 /* ViewControllerForLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B47EA727C6169D00457773 /* ViewControllerForLogin.swift */; };
@@ -54,6 +56,8 @@
 		A49EDD9D27D0B4C7003C1A29 /* TableViewControllerXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerXib.swift; sourceTree = "<group>"; };
 		A49EDDA027D0B5B6003C1A29 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		A49EDDA127D0B5B6003C1A29 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		A4AD65A027DF67C9005C6B97 /* LifeCycleViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LifeCycleViewController.storyboard; sourceTree = "<group>"; };
+		A4AD65A227DF6A27005C6B97 /* LifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycle.swift; sourceTree = "<group>"; };
 		A4AE5F2227CCA605000F8F88 /* PracticalOne.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PracticalOne.storyboard; sourceTree = "<group>"; };
 		A4B47EA527C60AD500457773 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A4B47EA727C6169D00457773 /* ViewControllerForLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForLogin.swift; sourceTree = "<group>"; };
@@ -74,6 +78,7 @@
 		A42C497C27C4C66F00FBCBBB = {
 			isa = PBXGroup;
 			children = (
+				A4AD659F27DF43F2005C6B97 /* IOSLifeCycles */,
 				A42C498727C4C66F00FBCBBB /* IOSPracticals */,
 				A42C498627C4C66F00FBCBBB /* Products */,
 			);
@@ -124,6 +129,15 @@
 				A49EDDA127D0B5B6003C1A29 /* TableViewCell.xib */,
 			);
 			path = CustomViewCell;
+			sourceTree = "<group>";
+		};
+		A4AD659F27DF43F2005C6B97 /* IOSLifeCycles */ = {
+			isa = PBXGroup;
+			children = (
+				A4AD65A027DF67C9005C6B97 /* LifeCycleViewController.storyboard */,
+				A4AD65A227DF6A27005C6B97 /* LifeCycle.swift */,
+			);
+			path = IOSLifeCycles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +206,7 @@
 				A49EDD9C27D0ADA1003C1A29 /* TableViewWithXib.storyboard in Resources */,
 				A448E70B27CF40DE00491420 /* UITableView.storyboard in Resources */,
 				A49EDD9827D07F92003C1A29 /* ScrollViewDemo.storyboard in Resources */,
+				A4AD65A127DF67C9005C6B97 /* LifeCycleViewController.storyboard in Resources */,
 				A4AE5F2327CCA605000F8F88 /* PracticalOne.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +231,7 @@
 				A4B47EA827C6169D00457773 /* ViewControllerForLogin.swift in Sources */,
 				A42C498B27C4C66F00FBCBBB /* SceneDelegate.swift in Sources */,
 				A42637EA27CE33B00061CAFB /* PageViewController.swift in Sources */,
+				A4AD65A327DF6A27005C6B97 /* LifeCycle.swift in Sources */,
 				A448E70F27CF626E00491420 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
