@@ -1,6 +1,6 @@
 import UIKit
 
-class TableViewCellC: UITableViewCell {
+class TableViewCell: UITableViewCell {
 
     @IBOutlet weak var textLanguage: UILabel!
     

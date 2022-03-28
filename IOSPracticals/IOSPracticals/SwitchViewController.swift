@@ -13,6 +13,11 @@ class SwitchViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        navigationItem.hidesBackButton = true
+    }
+    
 
     // MARK: Action Method for UISwitch
     @IBAction func buttonClicked(_ sender: UISwitch) {
