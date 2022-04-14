@@ -123,6 +123,19 @@
                                     <action selector="click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6PR-5u-5QU"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LSW-d5-GbZ">
+                                <rect key="frame" x="58.666666666666657" y="582" width="273" height="43"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Architecture">
+                                    <backgroundConfiguration key="background" cornerRadius="20"/>
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="qN6-Bt-FyR" kind="show" id="T5i-dF-6Kh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -136,14 +149,17 @@
                             <constraint firstItem="1wn-ns-fIy" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8PJ-ed-55R"/>
                             <constraint firstItem="jYV-7Q-oHh" firstAttribute="top" secondItem="BmR-M6-Omi" secondAttribute="bottom" constant="20" id="8Ua-dp-tc3"/>
                             <constraint firstItem="Iip-HH-dDZ" firstAttribute="top" secondItem="jYV-7Q-oHh" secondAttribute="bottom" constant="20" id="AYT-NV-QVT"/>
+                            <constraint firstItem="LSW-d5-GbZ" firstAttribute="centerX" secondItem="M0i-Ag-YyF" secondAttribute="centerX" id="Adb-ho-VDi"/>
                             <constraint firstItem="Iip-HH-dDZ" firstAttribute="width" secondItem="jYV-7Q-oHh" secondAttribute="width" id="B9f-G7-XFO"/>
                             <constraint firstItem="jYV-7Q-oHh" firstAttribute="width" secondItem="BmR-M6-Omi" secondAttribute="width" id="Ezj-d0-y7T"/>
+                            <constraint firstItem="LSW-d5-GbZ" firstAttribute="top" secondItem="M0i-Ag-YyF" secondAttribute="bottom" constant="23" id="J3J-aF-G5P"/>
                             <constraint firstItem="M0i-Ag-YyF" firstAttribute="top" secondItem="ZqF-f8-GMA" secondAttribute="bottom" constant="23" id="KY0-yx-77r"/>
                             <constraint firstItem="Iip-HH-dDZ" firstAttribute="centerX" secondItem="jYV-7Q-oHh" secondAttribute="centerX" id="N9P-bv-I1T"/>
                             <constraint firstItem="ZqF-f8-GMA" firstAttribute="centerX" secondItem="iTP-Wa-det" secondAttribute="centerX" id="O3E-WO-NZ3"/>
                             <constraint firstItem="1wn-ns-fIy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" multiplier="0.5" constant="50" id="PAI-P8-LsS"/>
                             <constraint firstItem="ZqF-f8-GMA" firstAttribute="top" secondItem="iTP-Wa-det" secondAttribute="bottom" constant="20" id="Q2t-hh-ESJ"/>
                             <constraint firstItem="BmR-M6-Omi" firstAttribute="centerX" secondItem="1wn-ns-fIy" secondAttribute="centerX" id="TWa-wD-Ekw"/>
+                            <constraint firstItem="LSW-d5-GbZ" firstAttribute="height" secondItem="M0i-Ag-YyF" secondAttribute="height" id="WNQ-Es-q3X"/>
                             <constraint firstItem="jYV-7Q-oHh" firstAttribute="centerX" secondItem="BmR-M6-Omi" secondAttribute="centerX" id="XdQ-q0-e04"/>
                             <constraint firstItem="BmR-M6-Omi" firstAttribute="top" secondItem="1wn-ns-fIy" secondAttribute="bottom" constant="20" id="YTU-4u-KkV"/>
                             <constraint firstItem="iTP-Wa-det" firstAttribute="width" secondItem="u7e-8g-9Ef" secondAttribute="width" id="ZpJ-7s-bXB"/>
@@ -155,6 +171,7 @@
                             <constraint firstItem="BmR-M6-Omi" firstAttribute="height" secondItem="1wn-ns-fIy" secondAttribute="height" id="iiC-6z-w8U"/>
                             <constraint firstItem="1wn-ns-fIy" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.7" id="kWW-Gl-52L"/>
                             <constraint firstItem="iTP-Wa-det" firstAttribute="top" secondItem="u7e-8g-9Ef" secondAttribute="bottom" constant="20" id="kb7-9D-BW0"/>
+                            <constraint firstItem="LSW-d5-GbZ" firstAttribute="width" secondItem="M0i-Ag-YyF" secondAttribute="width" id="lHU-nh-ogR"/>
                             <constraint firstItem="iTP-Wa-det" firstAttribute="centerX" secondItem="u7e-8g-9Ef" secondAttribute="centerX" id="o4v-hX-Q1s"/>
                             <constraint firstItem="u7e-8g-9Ef" firstAttribute="height" secondItem="Iip-HH-dDZ" secondAttribute="height" id="pB2-Xa-Hah"/>
                             <constraint firstItem="jYV-7Q-oHh" firstAttribute="height" secondItem="BmR-M6-Omi" secondAttribute="height" id="xSb-gm-mzJ"/>
@@ -195,7 +212,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eut-hA-0cr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1215" y="211"/>
+            <point key="canvasLocation" x="1251" y="195"/>
+        </scene>
+        <!--ArchitectureIndex-->
+        <scene sceneID="XFy-kX-L1T">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ArchitectureIndex" id="qN6-Bt-FyR" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="bVQ-Th-E3B"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ann-bj-ekS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1158" y="242"/>
         </scene>
         <!--ScrollViewDemo-->
         <scene sceneID="k8s-wG-FaY">

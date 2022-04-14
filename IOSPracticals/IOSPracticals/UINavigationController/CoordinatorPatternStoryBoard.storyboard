@@ -80,7 +80,7 @@
                             <constraint firstItem="gxF-ld-MKB" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="Akj-1D-EHz"/>
                             <constraint firstItem="gxF-ld-MKB" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="250" id="YL9-eX-ib5"/>
                             <constraint firstItem="RHa-X9-Dcy" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="fgz-CT-ROn"/>
-                            <constraint firstItem="RHa-X9-Dcy" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="kaI-vS-r6Y"/>
+                            <constraint firstItem="RHa-X9-Dcy" firstAttribute="top" secondItem="gxF-ld-MKB" secondAttribute="bottom" constant="24" id="mXc-TW-I5l"/>
                             <constraint firstItem="RHa-X9-Dcy" firstAttribute="width" secondItem="vDu-zF-Fre" secondAttribute="width" multiplier="0.8" id="wHA-Y7-s5p"/>
                         </constraints>
                     </view>
@@ -158,8 +158,8 @@
                         <constraints>
                             <constraint firstItem="byv-MJ-Ir3" firstAttribute="top" secondItem="IhP-qJ-UnO" secondAttribute="top" constant="250" id="7dc-wD-oHz"/>
                             <constraint firstItem="byv-MJ-Ir3" firstAttribute="centerX" secondItem="IhP-qJ-UnO" secondAttribute="centerX" id="O2C-zo-PgY"/>
+                            <constraint firstItem="ztz-7c-06N" firstAttribute="top" secondItem="byv-MJ-Ir3" secondAttribute="bottom" constant="49.5" id="SwU-sM-o25"/>
                             <constraint firstItem="ztz-7c-06N" firstAttribute="centerX" secondItem="IhP-qJ-UnO" secondAttribute="centerX" id="qGR-Q2-yxh"/>
-                            <constraint firstItem="ztz-7c-06N" firstAttribute="centerY" secondItem="IhP-qJ-UnO" secondAttribute="centerY" id="qKX-Br-R4V"/>
                             <constraint firstItem="ztz-7c-06N" firstAttribute="width" secondItem="Wud-jw-uRm" secondAttribute="width" multiplier="0.8" id="zoq-3i-7DC"/>
                         </constraints>
                     </view>

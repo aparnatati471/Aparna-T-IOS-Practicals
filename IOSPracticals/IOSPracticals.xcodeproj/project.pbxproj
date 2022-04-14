@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A40D956B2806C9440002178C /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D956A2806C9440002178C /* Student.swift */; };
+		A40D956D2806C9BC0002178C /* StudentInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40D956C2806C9BC0002178C /* StudentInformation.storyboard */; };
+		A40D956F2806C9DB0002178C /* StudentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D956E2806C9DB0002178C /* StudentInfoViewController.swift */; };
+		A40D95712806CD970002178C /* ArchitectureIndex.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40D95702806CD970002178C /* ArchitectureIndex.storyboard */; };
+		A40D95772806E1970002178C /* UsersInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40D95762806E1970002178C /* UsersInformation.storyboard */; };
+		A40D95792806E1B40002178C /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D95782806E1B40002178C /* UserPresenter.swift */; };
+		A40D957B2806E2160002178C /* UsersDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D957A2806E2160002178C /* UsersDataClass.swift */; };
+		A40D957D2806E8220002178C /* UsersInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D957C2806E8220002178C /* UsersInfoViewController.swift */; };
+		A40D957F2806EBA30002178C /* UsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D957E2806EBA30002178C /* UsersTableViewCell.swift */; };
+		A425AD2728098B3E0050A209 /* ViperView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A425AD2628098B3E0050A209 /* ViperView.storyboard */; };
+		A425AD2B28098E840050A209 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425AD2A28098E840050A209 /* Interactor.swift */; };
+		A425AD2D28098E8F0050A209 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425AD2C28098E8F0050A209 /* Presenter.swift */; };
+		A425AD2F28098E9F0050A209 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425AD2E28098E9F0050A209 /* Entity.swift */; };
+		A425AD3128098EAA0050A209 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425AD3028098EAA0050A209 /* Router.swift */; };
+		A425AD3328098FFF0050A209 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425AD3228098FFF0050A209 /* UsersViewController.swift */; };
 		A42637E827CDF0570061CAFB /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42637E727CDF0570061CAFB /* SignupViewController.swift */; };
 		A42637EA27CE33B00061CAFB /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42637E927CE33B00061CAFB /* PageViewController.swift */; };
 		A42C498927C4C66F00FBCBBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42C498827C4C66F00FBCBBB /* AppDelegate.swift */; };
@@ -21,6 +36,15 @@
 		A448E71127CF6BD500491420 /* UITableViewWithSections.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A448E71027CF6BD500491420 /* UITableViewWithSections.storyboard */; };
 		A448E71327CF6E3800491420 /* TableViewControllerSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448E71227CF6E3800491420 /* TableViewControllerSections.swift */; };
 		A448E71527CF74C300491420 /* MobileBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448E71427CF74C300491420 /* MobileBrand.swift */; };
+		A477E85028082CB9005B67E5 /* MvvmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A477E84F28082CB9005B67E5 /* MvvmTableViewCell.swift */; };
+		A477E85228082CEC005B67E5 /* MvvmAPICallingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A477E85128082CEC005B67E5 /* MvvmAPICallingVC.swift */; };
+		A477E854280833AD005B67E5 /* Dynamics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A477E853280833AD005B67E5 /* Dynamics.swift */; };
+		A477E85628084072005B67E5 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A477E85528084072005B67E5 /* LoginCoordinator.swift */; };
+		A477E85828084435005B67E5 /* ArchitectureIndexVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A477E85728084435005B67E5 /* ArchitectureIndexVC.swift */; };
+		A494AA142807F0A10099A207 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A494AA132807F0A10099A207 /* LoginModel.swift */; };
+		A494AA162807F2060099A207 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A494AA152807F2060099A207 /* LoginViewModel.swift */; };
+		A494AA182807F6D00099A207 /* MVVMLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A494AA172807F6D00099A207 /* MVVMLogin.storyboard */; };
+		A494AA1A2807F6F60099A207 /* MvvmLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A494AA192807F6F60099A207 /* MvvmLoginViewController.swift */; };
 		A498D04727EB1399003FC436 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498D03727EB1399003FC436 /* HomeCoordinator.swift */; };
 		A498D04827EB1399003FC436 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498D03827EB1399003FC436 /* MainCoordinator.swift */; };
 		A498D04A27EB1399003FC436 /* SignupCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498D03A27EB1399003FC436 /* SignupCoordinator.swift */; };
@@ -50,6 +74,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A40D956A2806C9440002178C /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		A40D956C2806C9BC0002178C /* StudentInformation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentInformation.storyboard; sourceTree = "<group>"; };
+		A40D956E2806C9DB0002178C /* StudentInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentInfoViewController.swift; sourceTree = "<group>"; };
+		A40D95702806CD970002178C /* ArchitectureIndex.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ArchitectureIndex.storyboard; sourceTree = "<group>"; };
+		A40D95762806E1970002178C /* UsersInformation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UsersInformation.storyboard; sourceTree = "<group>"; };
+		A40D95782806E1B40002178C /* UserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenter.swift; sourceTree = "<group>"; };
+		A40D957A2806E2160002178C /* UsersDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersDataClass.swift; sourceTree = "<group>"; };
+		A40D957C2806E8220002178C /* UsersInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersInfoViewController.swift; sourceTree = "<group>"; };
+		A40D957E2806EBA30002178C /* UsersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewCell.swift; sourceTree = "<group>"; };
+		A425AD2628098B3E0050A209 /* ViperView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViperView.storyboard; sourceTree = "<group>"; };
+		A425AD2A28098E840050A209 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		A425AD2C28098E8F0050A209 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		A425AD2E28098E9F0050A209 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		A425AD3028098EAA0050A209 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		A425AD3228098FFF0050A209 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		A42637E727CDF0570061CAFB /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		A42637E927CE33B00061CAFB /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		A42C498527C4C66F00FBCBBB /* IOSPracticals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSPracticals.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +105,15 @@
 		A448E71027CF6BD500491420 /* UITableViewWithSections.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UITableViewWithSections.storyboard; sourceTree = "<group>"; };
 		A448E71227CF6E3800491420 /* TableViewControllerSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerSections.swift; sourceTree = "<group>"; };
 		A448E71427CF74C300491420 /* MobileBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileBrand.swift; sourceTree = "<group>"; };
+		A477E84F28082CB9005B67E5 /* MvvmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MvvmTableViewCell.swift; sourceTree = "<group>"; };
+		A477E85128082CEC005B67E5 /* MvvmAPICallingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MvvmAPICallingVC.swift; sourceTree = "<group>"; };
+		A477E853280833AD005B67E5 /* Dynamics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamics.swift; sourceTree = "<group>"; };
+		A477E85528084072005B67E5 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		A477E85728084435005B67E5 /* ArchitectureIndexVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectureIndexVC.swift; sourceTree = "<group>"; };
+		A494AA132807F0A10099A207 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		A494AA152807F2060099A207 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A494AA172807F6D00099A207 /* MVVMLogin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MVVMLogin.storyboard; sourceTree = "<group>"; };
+		A494AA192807F6F60099A207 /* MvvmLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MvvmLoginViewController.swift; sourceTree = "<group>"; };
 		A498D03727EB1399003FC436 /* HomeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		A498D03827EB1399003FC436 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		A498D03A27EB1399003FC436 /* SignupCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupCoordinator.swift; sourceTree = "<group>"; };
@@ -105,9 +153,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A40D95612806C1E00002178C /* IOSArchitecture */ = {
+			isa = PBXGroup;
+			children = (
+				A425AD2528098AFC0050A209 /* viper */,
+				A494AA0F2807E7D80099A207 /* mvvm */,
+				A40D95722806E1130002178C /* mvp */,
+				A40D95622806C1F20002178C /* mvc */,
+				A40D95702806CD970002178C /* ArchitectureIndex.storyboard */,
+				A477E85728084435005B67E5 /* ArchitectureIndexVC.swift */,
+			);
+			path = IOSArchitecture;
+			sourceTree = "<group>";
+		};
+		A40D95622806C1F20002178C /* mvc */ = {
+			isa = PBXGroup;
+			children = (
+				A40D95652806C21A0002178C /* controller */,
+				A40D95642806C2060002178C /* view */,
+				A40D95632806C1FF0002178C /* model */,
+			);
+			path = mvc;
+			sourceTree = "<group>";
+		};
+		A40D95632806C1FF0002178C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A40D956A2806C9440002178C /* Student.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A40D95642806C2060002178C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A40D956C2806C9BC0002178C /* StudentInformation.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A40D95652806C21A0002178C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A40D956E2806C9DB0002178C /* StudentInfoViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A40D95722806E1130002178C /* mvp */ = {
+			isa = PBXGroup;
+			children = (
+				A40D95752806E1360002178C /* presenter */,
+				A40D95742806E12E0002178C /* view */,
+				A40D95732806E1220002178C /* model */,
+			);
+			path = mvp;
+			sourceTree = "<group>";
+		};
+		A40D95732806E1220002178C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A40D957A2806E2160002178C /* UsersDataClass.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A40D95742806E12E0002178C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A40D957E2806EBA30002178C /* UsersTableViewCell.swift */,
+				A40D95762806E1970002178C /* UsersInformation.storyboard */,
+				A40D957C2806E8220002178C /* UsersInfoViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A40D95752806E1360002178C /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A40D95782806E1B40002178C /* UserPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		A425AD2528098AFC0050A209 /* viper */ = {
+			isa = PBXGroup;
+			children = (
+				A425AD2628098B3E0050A209 /* ViperView.storyboard */,
+				A425AD2A28098E840050A209 /* Interactor.swift */,
+				A425AD2C28098E8F0050A209 /* Presenter.swift */,
+				A425AD2E28098E9F0050A209 /* Entity.swift */,
+				A425AD3028098EAA0050A209 /* Router.swift */,
+				A425AD3228098FFF0050A209 /* UsersViewController.swift */,
+			);
+			path = viper;
+			sourceTree = "<group>";
+		};
 		A42C497C27C4C66F00FBCBBB = {
 			isa = PBXGroup;
 			children = (
+				A40D95612806C1E00002178C /* IOSArchitecture */,
 				A4AD659F27DF43F2005C6B97 /* IOSLifeCycles */,
 				A42C498727C4C66F00FBCBBB /* IOSPracticals */,
 				A42C498627C4C66F00FBCBBB /* Products */,
@@ -151,6 +296,53 @@
 				A49EDD9D27D0B4C7003C1A29 /* TableViewControllerXib.swift */,
 			);
 			path = IOSPracticals;
+			sourceTree = "<group>";
+		};
+		A494AA0F2807E7D80099A207 /* mvvm */ = {
+			isa = PBXGroup;
+			children = (
+				A494AA1B280819510099A207 /* coordinators */,
+				A494AA122807F06C0099A207 /* view */,
+				A494AA112807F0610099A207 /* viewmodel */,
+				A494AA102807F04E0099A207 /* model */,
+				A477E853280833AD005B67E5 /* Dynamics.swift */,
+			);
+			path = mvvm;
+			sourceTree = "<group>";
+		};
+		A494AA102807F04E0099A207 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A494AA132807F0A10099A207 /* LoginModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A494AA112807F0610099A207 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				A494AA152807F2060099A207 /* LoginViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		A494AA122807F06C0099A207 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A494AA172807F6D00099A207 /* MVVMLogin.storyboard */,
+				A494AA192807F6F60099A207 /* MvvmLoginViewController.swift */,
+				A477E84F28082CB9005B67E5 /* MvvmTableViewCell.swift */,
+				A477E85128082CEC005B67E5 /* MvvmAPICallingVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A494AA1B280819510099A207 /* coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				A477E85528084072005B67E5 /* LoginCoordinator.swift */,
+			);
+			path = coordinators;
 			sourceTree = "<group>";
 		};
 		A498D03427EB1399003FC436 /* UINavigationController */ = {
@@ -262,15 +454,20 @@
 				A42C499527C4C67000FBCBBB /* LaunchScreen.storyboard in Resources */,
 				A42C499227C4C67000FBCBBB /* Assets.xcassets in Resources */,
 				A448E71127CF6BD500491420 /* UITableViewWithSections.storyboard in Resources */,
+				A494AA182807F6D00099A207 /* MVVMLogin.storyboard in Resources */,
+				A40D956D2806C9BC0002178C /* StudentInformation.storyboard in Resources */,
 				A4B47EA627C60AD500457773 /* Main.storyboard in Resources */,
 				A49EDDA327D0B5B6003C1A29 /* TableViewCell.xib in Resources */,
 				A49EDD9C27D0ADA1003C1A29 /* TableViewWithXib.storyboard in Resources */,
 				A498D05427EB1399003FC436 /* UINavigationController.storyboard in Resources */,
 				A448E70B27CF40DE00491420 /* UITableView.storyboard in Resources */,
 				A49EDD9827D07F92003C1A29 /* ScrollViewDemo.storyboard in Resources */,
+				A40D95772806E1970002178C /* UsersInformation.storyboard in Resources */,
+				A425AD2728098B3E0050A209 /* ViperView.storyboard in Resources */,
 				A4AD65A127DF67C9005C6B97 /* LifeCycleViewController.storyboard in Resources */,
 				A498D05027EB1399003FC436 /* CoordinatorPatternStoryBoard.storyboard in Resources */,
 				A4AE5F2327CCA605000F8F88 /* PracticalOne.storyboard in Resources */,
+				A40D95712806CD970002178C /* ArchitectureIndex.storyboard in Resources */,
 				A498D04F27EB1399003FC436 /* NavigationController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,27 +485,46 @@
 				A498D05327EB1399003FC436 /* HomeVC.swift in Sources */,
 				A498D05527EB1399003FC436 /* SecondViewController.swift in Sources */,
 				A498D05727EB2031003FC436 /* NavigationController.swift in Sources */,
+				A477E854280833AD005B67E5 /* Dynamics.swift in Sources */,
 				A49EDD9E27D0B4C7003C1A29 /* TableViewControllerXib.swift in Sources */,
 				A498D04727EB1399003FC436 /* HomeCoordinator.swift in Sources */,
+				A477E85028082CB9005B67E5 /* MvvmTableViewCell.swift in Sources */,
 				A448E71327CF6E3800491420 /* TableViewControllerSections.swift in Sources */,
 				A498D05127EB1399003FC436 /* SignupVC.swift in Sources */,
+				A40D957F2806EBA30002178C /* UsersTableViewCell.swift in Sources */,
 				A448E70D27CF496100491420 /* VideoCell.swift in Sources */,
 				A49EDDA227D0B5B6003C1A29 /* TableViewCell.swift in Sources */,
+				A477E85828084435005B67E5 /* ArchitectureIndexVC.swift in Sources */,
+				A425AD3128098EAA0050A209 /* Router.swift in Sources */,
+				A494AA162807F2060099A207 /* LoginViewModel.swift in Sources */,
 				A498D04B27EB1399003FC436 /* CoordinatorBoard.swift in Sources */,
 				A498D04C27EB1399003FC436 /* ThirdViewController.swift in Sources */,
 				A498D04827EB1399003FC436 /* MainCoordinator.swift in Sources */,
 				A4B47EAA27C62C0600457773 /* ViewControllerForSignup.swift in Sources */,
 				A448E70927CF3F2700491420 /* VideoListScreen.swift in Sources */,
 				A42C498927C4C66F00FBCBBB /* AppDelegate.swift in Sources */,
+				A477E85628084072005B67E5 /* LoginCoordinator.swift in Sources */,
 				A448E71527CF74C300491420 /* MobileBrand.swift in Sources */,
+				A40D956B2806C9440002178C /* Student.swift in Sources */,
+				A477E85228082CEC005B67E5 /* MvvmAPICallingVC.swift in Sources */,
+				A494AA1A2807F6F60099A207 /* MvvmLoginViewController.swift in Sources */,
+				A40D956F2806C9DB0002178C /* StudentInfoViewController.swift in Sources */,
+				A40D957D2806E8220002178C /* UsersInfoViewController.swift in Sources */,
 				A498D04A27EB1399003FC436 /* SignupCoordinator.swift in Sources */,
+				A425AD3328098FFF0050A209 /* UsersViewController.swift in Sources */,
 				A4B47EA827C6169D00457773 /* ViewControllerForLogin.swift in Sources */,
+				A494AA142807F0A10099A207 /* LoginModel.swift in Sources */,
+				A425AD2D28098E8F0050A209 /* Presenter.swift in Sources */,
 				A498D05227EB1399003FC436 /* FourthViewController.swift in Sources */,
+				A40D957B2806E2160002178C /* UsersDataClass.swift in Sources */,
+				A40D95792806E1B40002178C /* UserPresenter.swift in Sources */,
 				A42C498B27C4C66F00FBCBBB /* SceneDelegate.swift in Sources */,
 				A42637EA27CE33B00061CAFB /* PageViewController.swift in Sources */,
 				A4AD65A327DF6A27005C6B97 /* LifeCycle.swift in Sources */,
+				A425AD2F28098E9F0050A209 /* Entity.swift in Sources */,
 				A448E70F27CF626E00491420 /* Video.swift in Sources */,
 				A498D04D27EB1399003FC436 /* FirstViewController.swift in Sources */,
+				A425AD2B28098E840050A209 /* Interactor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

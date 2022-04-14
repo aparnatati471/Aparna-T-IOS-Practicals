@@ -5,6 +5,8 @@ enum StoryBoards: String {
     case main = "Main"
     case coorinatorPattern = "CoordinatorPatternStoryBoard"
     case uinavigation = "NavigationController"
+    case mvvm =  "MVVMLogin"
+    case viper = "ViperView"
 }
 
 
