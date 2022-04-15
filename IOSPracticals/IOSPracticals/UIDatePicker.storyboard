@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--OtherUI Components View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="OtherUIComponentsViewController" customModule="IOSPracticals" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="tEW-3n-WeW">
+                                <rect key="frame" x="47" y="135" width="320" height="216"/>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMf-dd-WzJ">
+                                <rect key="frame" x="182" y="376" width="50" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezp-4n-hQg">
+                                <rect key="frame" x="207" y="583" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="SMa-D5-hbe">
+                                <rect key="frame" x="93.5" y="77" width="227" height="32"/>
+                                <segments>
+                                    <segment title="Wheels"/>
+                                    <segment title="Compact"/>
+                                    <segment title="Inline"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentSelceted:" destination="Y6W-OH-hqX" eventType="valueChanged" id="YcT-wJ-yI3"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bMf-dd-WzJ" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="EbO-5S-Dfx"/>
+                            <constraint firstItem="tEW-3n-WeW" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="FwC-gH-7FK"/>
+                            <constraint firstItem="bMf-dd-WzJ" firstAttribute="top" secondItem="tEW-3n-WeW" secondAttribute="bottom" constant="25" id="O57-0C-9b5"/>
+                            <constraint firstItem="tEW-3n-WeW" firstAttribute="top" secondItem="SMa-D5-hbe" secondAttribute="bottom" constant="27" id="Oo5-jg-94i"/>
+                            <constraint firstItem="ezp-4n-hQg" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="SWR-Ev-Mx2"/>
+                            <constraint firstItem="SMa-D5-hbe" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="33" id="azt-ma-v7W"/>
+                            <constraint firstItem="SMa-D5-hbe" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="iYP-8H-2n7"/>
+                            <constraint firstAttribute="bottom" secondItem="ezp-4n-hQg" secondAttribute="bottom" constant="313" id="rRQ-HP-rFc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="datePick" destination="tEW-3n-WeW" id="3wv-wr-Lz1"/>
+                        <outlet property="dateSegment" destination="SMa-D5-hbe" id="wSA-GQ-Out"/>
+                        <outlet property="dispDateLable" destination="bMf-dd-WzJ" id="17m-Fr-CqY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-15.942028985507248" y="-156.02678571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

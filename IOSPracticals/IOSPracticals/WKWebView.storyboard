@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Web View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="WKWebViewController" customModule="IOSPracticals" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="QJh-O5-dgT">
+                                <rect key="frame" x="20" y="64" width="374" height="137"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Se9-Dc-gAx">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="38"/>
+                                        <color key="tintColor" systemColor="tintColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="WKWebView">
+                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="selectType:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Tlc-2Y-77s"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ws8-lZ-fJw">
+                                        <rect key="frame" x="0.0" y="40" width="374" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="PDF"/>
+                                        <connections>
+                                            <action selector="buttonClicked:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="QSx-Kb-GAe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FgE-yR-cyw">
+                                        <rect key="frame" x="0.0" y="73" width="374" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="URL"/>
+                                        <connections>
+                                            <action selector="buttonClicked:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="3uQ-wO-ih6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IO4-Hw-bee">
+                                        <rect key="frame" x="0.0" y="106" width="374" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="HTML"/>
+                                        <connections>
+                                            <action selector="buttonClicked:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="qr6-KF-lsv"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H2s-fY-EU0">
+                                <rect key="frame" x="0.0" y="251" width="414" height="611"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="1tD-01-zGH">
+                                <rect key="frame" x="197" y="546.5" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="DLU-HL-4ll"/>
+                                    <constraint firstAttribute="height" constant="20" id="Dit-cQ-fd8"/>
+                                </constraints>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1tD-01-zGH" firstAttribute="centerX" secondItem="H2s-fY-EU0" secondAttribute="centerX" id="8cg-0R-Jpf"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="QJh-O5-dgT" secondAttribute="trailing" constant="20" id="9RL-dI-OM7"/>
+                            <constraint firstItem="1tD-01-zGH" firstAttribute="centerY" secondItem="H2s-fY-EU0" secondAttribute="centerY" id="BFz-ZK-4et"/>
+                            <constraint firstItem="QJh-O5-dgT" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="BRh-73-0JE"/>
+                            <constraint firstItem="H2s-fY-EU0" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Cw7-hL-0DG"/>
+                            <constraint firstItem="H2s-fY-EU0" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="THJ-pu-IKV"/>
+                            <constraint firstItem="QJh-O5-dgT" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="eXR-3L-EsX"/>
+                            <constraint firstItem="H2s-fY-EU0" firstAttribute="top" secondItem="QJh-O5-dgT" secondAttribute="bottom" constant="50" id="oXJ-Hr-z0p"/>
+                            <constraint firstItem="H2s-fY-EU0" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="riF-rf-u1E"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="1tD-01-zGH" id="dD8-gD-Y9y"/>
+                        <outlet property="selectTypeBtn" destination="Se9-Dc-gAx" id="rc7-9U-PjQ"/>
+                        <outlet property="webView" destination="H2s-fY-EU0" id="QMh-nq-FCQ"/>
+                        <outletCollection property="buttons" destination="Ws8-lZ-fJw" collectionClass="NSMutableArray" id="Wuj-Pe-Lwz"/>
+                        <outletCollection property="buttons" destination="FgE-yR-cyw" collectionClass="NSMutableArray" id="qTq-YA-u2Z"/>
+                        <outletCollection property="buttons" destination="IO4-Hw-bee" collectionClass="NSMutableArray" id="1bX-sy-FA6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-17.39130434782609" y="45.535714285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
