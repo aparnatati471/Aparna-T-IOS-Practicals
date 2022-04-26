@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="R6A-hv-4T6">
-                                <rect key="frame" x="48" y="408" width="318" height="90"/>
+                                <rect key="frame" x="107.5" y="406" width="199" height="94"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HEj-ar-Tmc">
-                                        <rect key="frame" x="0.0" y="0.0" width="318" height="35"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="199" height="37"/>
                                         <color key="tintColor" systemColor="tintColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Segues">
@@ -33,7 +33,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RwO-Af-GTK">
-                                        <rect key="frame" x="0.0" y="55" width="318" height="35"/>
+                                        <rect key="frame" x="0.0" y="57" width="199" height="37"/>
                                         <color key="tintColor" systemColor="tintColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Coordinator Pattern">
@@ -45,19 +45,13 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="RwO-Af-GTK" firstAttribute="width" secondItem="HEj-ar-Tmc" secondAttribute="width" id="Zqa-Tn-DLm"/>
-                                    <constraint firstItem="RwO-Af-GTK" firstAttribute="height" secondItem="HEj-ar-Tmc" secondAttribute="height" id="f9y-Nj-Vsn"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="R6A-hv-4T6" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.1" id="H7S-ah-D0r"/>
                             <constraint firstItem="R6A-hv-4T6" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="Kp6-ZS-PZM"/>
                             <constraint firstItem="R6A-hv-4T6" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" id="LeA-9a-koU"/>
-                            <constraint firstItem="R6A-hv-4T6" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.768116" id="sPE-U6-GVu"/>
                         </constraints>
                     </view>
                 </viewController>
