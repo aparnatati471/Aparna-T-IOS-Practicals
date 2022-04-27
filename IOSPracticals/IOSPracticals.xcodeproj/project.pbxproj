@@ -71,6 +71,7 @@
 		A4B47EA627C60AD500457773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B47EA527C60AD500457773 /* Main.storyboard */; };
 		A4B47EA827C6169D00457773 /* ViewControllerForLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B47EA727C6169D00457773 /* ViewControllerForLogin.swift */; };
 		A4B47EAA27C62C0600457773 /* ViewControllerForSignup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B47EA927C62C0500457773 /* ViewControllerForSignup.swift */; };
+		A4F4B637281960F800EDFB7F /* UICompoentsIndex.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F4B636281960F800EDFB7F /* UICompoentsIndex.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -140,6 +141,7 @@
 		A4B47EA527C60AD500457773 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A4B47EA727C6169D00457773 /* ViewControllerForLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForLogin.swift; sourceTree = "<group>"; };
 		A4B47EA927C62C0500457773 /* ViewControllerForSignup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForSignup.swift; sourceTree = "<group>"; };
+		A4F4B636281960F800EDFB7F /* UICompoentsIndex.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UICompoentsIndex.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +296,7 @@
 				A49EDD9727D07F92003C1A29 /* ScrollViewDemo.storyboard */,
 				A49EDD9B27D0ADA1003C1A29 /* TableViewWithXib.storyboard */,
 				A49EDD9D27D0B4C7003C1A29 /* TableViewControllerXib.swift */,
+				A4F4B636281960F800EDFB7F /* UICompoentsIndex.storyboard */,
 			);
 			path = IOSPracticals;
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 				A448E70B27CF40DE00491420 /* UITableView.storyboard in Resources */,
 				A49EDD9827D07F92003C1A29 /* ScrollViewDemo.storyboard in Resources */,
 				A40D95772806E1970002178C /* UsersInformation.storyboard in Resources */,
+				A4F4B637281960F800EDFB7F /* UICompoentsIndex.storyboard in Resources */,
 				A425AD2728098B3E0050A209 /* ViperView.storyboard in Resources */,
 				A4AD65A127DF67C9005C6B97 /* LifeCycleViewController.storyboard in Resources */,
 				A498D05027EB1399003FC436 /* CoordinatorPatternStoryBoard.storyboard in Resources */,

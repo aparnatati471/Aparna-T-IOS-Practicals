@@ -30,9 +30,6 @@
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="r9e-JS-WjU">
                                                     <rect key="frame" x="20" y="26" width="149" height="93"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="149" id="AEw-je-up7"/>
-                                                    </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOu-Xb-ooI">
                                                     <rect key="frame" x="169" y="80.5" width="41.5" height="20.5"/>
@@ -48,16 +45,16 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="r9e-JS-WjU" secondAttribute="bottom" constant="26" id="5bZ-sR-ED5"/>
                                                 <constraint firstItem="r9e-JS-WjU" firstAttribute="leading" secondItem="ZlH-cq-H92" secondAttribute="leading" constant="20" symbolic="YES" id="Ouo-5p-phg"/>
                                                 <constraint firstItem="IOu-Xb-ooI" firstAttribute="top" secondItem="qyh-Qz-wwx" secondAttribute="bottom" constant="16" id="b5v-q1-c4U"/>
                                                 <constraint firstItem="r9e-JS-WjU" firstAttribute="centerY" secondItem="ZlH-cq-H92" secondAttribute="centerY" id="f2W-0t-f6w"/>
                                                 <constraint firstItem="qyh-Qz-wwx" firstAttribute="leading" secondItem="r9e-JS-WjU" secondAttribute="trailing" id="iX3-Yr-jAJ"/>
                                                 <constraint firstItem="IOu-Xb-ooI" firstAttribute="leading" secondItem="r9e-JS-WjU" secondAttribute="trailing" id="icV-zr-jSV"/>
-                                                <constraint firstItem="r9e-JS-WjU" firstAttribute="top" secondItem="ZlH-cq-H92" secondAttribute="top" constant="26" id="ym7-1J-27R"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <constraints>
+                                            <constraint firstItem="r9e-JS-WjU" firstAttribute="height" secondItem="uMe-BL-wmc" secondAttribute="height" multiplier="0.641379" id="MVA-jc-f7F"/>
+                                            <constraint firstItem="r9e-JS-WjU" firstAttribute="width" secondItem="uMe-BL-wmc" secondAttribute="width" multiplier="0.359903" id="Wy7-Q0-UXv"/>
                                             <constraint firstItem="qyh-Qz-wwx" firstAttribute="top" secondItem="uMe-BL-wmc" secondAttribute="top" constant="44" id="XfJ-x1-cbT"/>
                                         </constraints>
                                         <connections>

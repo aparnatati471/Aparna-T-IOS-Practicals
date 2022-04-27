@@ -43,10 +43,10 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="OpM-bP-WLX" secondAttribute="bottom" id="K3Z-kZ-SiU"/>
-                            <constraint firstItem="OpM-bP-WLX" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="LQo-iM-Cmm"/>
-                            <constraint firstItem="OpM-bP-WLX" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="VXu-4R-LQK"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="OpM-bP-WLX" secondAttribute="trailing" id="ngv-pJ-loi"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="top" secondItem="OpM-bP-WLX" secondAttribute="top" constant="88" id="DhR-NS-Sf1"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="OpM-bP-WLX" secondAttribute="trailing" id="Iyl-OF-62V"/>
+                            <constraint firstItem="OpM-bP-WLX" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" constant="34" id="YUk-eN-vtD"/>
+                            <constraint firstItem="OpM-bP-WLX" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="doc-en-wBJ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="abO-K3-OxO"/>
