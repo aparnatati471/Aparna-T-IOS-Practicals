@@ -4,7 +4,6 @@ extension UIViewController {
     
     func hideKeyboardWhenTappedAround() {
         let tap = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
-        tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
     }
     
@@ -15,6 +14,7 @@ extension UIViewController {
 }
 
 extension UITextField {
+    
     func setRightIcon(_ image: UIImage) {
         let iconView = UIImageView(frame: CGRect(x: 5, y: 5, width: 20, height: 20))
         iconView.image = image
@@ -23,4 +23,5 @@ extension UITextField {
         rightView = iconContainer
         rightViewMode = .always
     }
+    
 }

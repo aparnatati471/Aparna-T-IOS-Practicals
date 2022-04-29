@@ -65,7 +65,7 @@
 		A49EDD9E27D0B4C7003C1A29 /* TableViewControllerXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49EDD9D27D0B4C7003C1A29 /* TableViewControllerXib.swift */; };
 		A49EDDA227D0B5B6003C1A29 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49EDDA027D0B5B6003C1A29 /* TableViewCell.swift */; };
 		A49EDDA327D0B5B6003C1A29 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A49EDDA127D0B5B6003C1A29 /* TableViewCell.xib */; };
-		A4AB1140281BC4BF0005A122 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AB113F281BC4BF0005A122 /* Keyboard.swift */; };
+		A4AB1140281BC4BF0005A122 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AB113F281BC4BF0005A122 /* Extensions.swift */; };
 		A4AD65A127DF67C9005C6B97 /* LifeCycleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4AD65A027DF67C9005C6B97 /* LifeCycleViewController.storyboard */; };
 		A4AD65A327DF6A27005C6B97 /* LifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AD65A227DF6A27005C6B97 /* LifeCycle.swift */; };
 		A4AE5F2327CCA605000F8F88 /* PracticalOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4AE5F2227CCA605000F8F88 /* PracticalOne.storyboard */; };
@@ -136,7 +136,7 @@
 		A49EDD9D27D0B4C7003C1A29 /* TableViewControllerXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerXib.swift; sourceTree = "<group>"; };
 		A49EDDA027D0B5B6003C1A29 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		A49EDDA127D0B5B6003C1A29 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
-		A4AB113F281BC4BF0005A122 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		A4AB113F281BC4BF0005A122 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A4AD65A027DF67C9005C6B97 /* LifeCycleViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LifeCycleViewController.storyboard; sourceTree = "<group>"; };
 		A4AD65A227DF6A27005C6B97 /* LifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycle.swift; sourceTree = "<group>"; };
 		A4AE5F2227CCA605000F8F88 /* PracticalOne.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PracticalOne.storyboard; sourceTree = "<group>"; };
@@ -299,7 +299,7 @@
 				A49EDD9B27D0ADA1003C1A29 /* TableViewWithXib.storyboard */,
 				A49EDD9D27D0B4C7003C1A29 /* TableViewControllerXib.swift */,
 				A4F4B636281960F800EDFB7F /* UICompoentsIndex.storyboard */,
-				A4AB113F281BC4BF0005A122 /* Keyboard.swift */,
+				A4AB113F281BC4BF0005A122 /* Extensions.swift */,
 			);
 			path = IOSPracticals;
 			sourceTree = "<group>";
@@ -514,7 +514,7 @@
 				A448E71527CF74C300491420 /* MobileBrand.swift in Sources */,
 				A40D956B2806C9440002178C /* Student.swift in Sources */,
 				A477E85228082CEC005B67E5 /* MvvmAPICallingVC.swift in Sources */,
-				A4AB1140281BC4BF0005A122 /* Keyboard.swift in Sources */,
+				A4AB1140281BC4BF0005A122 /* Extensions.swift in Sources */,
 				A494AA1A2807F6F60099A207 /* MvvmLoginViewController.swift in Sources */,
 				A40D956F2806C9DB0002178C /* StudentInfoViewController.swift in Sources */,
 				A40D957D2806E8220002178C /* UsersInfoViewController.swift in Sources */,

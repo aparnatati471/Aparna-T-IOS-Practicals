@@ -438,11 +438,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mhg-hW-UPx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="776.81159420289862" y="28.794642857142854"/>
+            <point key="canvasLocation" x="789" y="10"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="2G6-ua-wG8"/>
+        <segue reference="oyX-O5-BcT"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="person.circle.fill" catalog="system" width="128" height="121"/>
