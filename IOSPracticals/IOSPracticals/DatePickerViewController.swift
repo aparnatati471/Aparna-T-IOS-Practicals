@@ -1,6 +1,6 @@
 import UIKit
 
-class DatePickerViewController: UIViewController {
+class OtherUIComponentsViewController: UIViewController {
 
     // MARK: Outlets
     @IBOutlet weak var dateSegment: UISegmentedControl!
