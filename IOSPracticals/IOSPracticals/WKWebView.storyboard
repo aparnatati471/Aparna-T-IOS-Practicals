@@ -16,11 +16,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="QJh-O5-dgT">
-                                <rect key="frame" x="20" y="64" width="374" height="137"/>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H2s-fY-EU0">
+                                <rect key="frame" x="0.0" y="236.5" width="414" height="625.5"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="1tD-01-zGH">
+                                <rect key="frame" x="197" y="539.5" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="DLU-HL-4ll"/>
+                                    <constraint firstAttribute="height" constant="20" id="Dit-cQ-fd8"/>
+                                </constraints>
+                            </activityIndicatorView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="QJh-O5-dgT">
+                                <rect key="frame" x="20.5" y="57" width="373" height="158"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Se9-Dc-gAx">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="38"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="373" height="38"/>
                                         <color key="tintColor" systemColor="tintColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="WKWebView">
@@ -31,7 +46,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ws8-lZ-fJw">
-                                        <rect key="frame" x="0.0" y="40" width="374" height="31"/>
+                                        <rect key="frame" x="0.0" y="40" width="373" height="38"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="tinted" title="PDF"/>
                                         <connections>
@@ -39,7 +54,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FgE-yR-cyw">
-                                        <rect key="frame" x="0.0" y="73" width="374" height="31"/>
+                                        <rect key="frame" x="0.0" y="80" width="373" height="38"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="tinted" title="URL"/>
                                         <connections>
@@ -47,7 +62,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IO4-Hw-bee">
-                                        <rect key="frame" x="0.0" y="106" width="374" height="31"/>
+                                        <rect key="frame" x="0.0" y="120" width="373" height="38"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="tinted" title="HTML"/>
                                         <connections>
@@ -56,33 +71,18 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H2s-fY-EU0">
-                                <rect key="frame" x="0.0" y="251" width="414" height="611"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="1tD-01-zGH">
-                                <rect key="frame" x="197" y="546.5" width="20" height="20"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="20" id="DLU-HL-4ll"/>
-                                    <constraint firstAttribute="height" constant="20" id="Dit-cQ-fd8"/>
-                                </constraints>
-                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="1tD-01-zGH" firstAttribute="centerX" secondItem="H2s-fY-EU0" secondAttribute="centerX" id="8cg-0R-Jpf"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="QJh-O5-dgT" secondAttribute="trailing" constant="20" id="9RL-dI-OM7"/>
                             <constraint firstItem="1tD-01-zGH" firstAttribute="centerY" secondItem="H2s-fY-EU0" secondAttribute="centerY" id="BFz-ZK-4et"/>
-                            <constraint firstItem="QJh-O5-dgT" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="BRh-73-0JE"/>
                             <constraint firstItem="H2s-fY-EU0" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Cw7-hL-0DG"/>
+                            <constraint firstItem="QJh-O5-dgT" firstAttribute="width" secondItem="vDu-zF-Fre" secondAttribute="width" multiplier="0.9" id="IoH-Mb-Hmq"/>
+                            <constraint firstItem="QJh-O5-dgT" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="ODl-qO-zMR"/>
                             <constraint firstItem="H2s-fY-EU0" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="THJ-pu-IKV"/>
-                            <constraint firstItem="QJh-O5-dgT" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="eXR-3L-EsX"/>
-                            <constraint firstItem="H2s-fY-EU0" firstAttribute="top" secondItem="QJh-O5-dgT" secondAttribute="bottom" constant="50" id="oXJ-Hr-z0p"/>
+                            <constraint firstItem="QJh-O5-dgT" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="13" id="jgL-ta-ayt"/>
+                            <constraint firstItem="H2s-fY-EU0" firstAttribute="top" secondItem="QJh-O5-dgT" secondAttribute="bottom" multiplier="1.1" id="oXJ-Hr-z0p"/>
                             <constraint firstItem="H2s-fY-EU0" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="riF-rf-u1E"/>
                         </constraints>
                     </view>

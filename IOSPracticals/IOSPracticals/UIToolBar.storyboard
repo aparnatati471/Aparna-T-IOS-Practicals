@@ -16,20 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sMm-OQ-IZD">
-                                <rect key="frame" x="33.5" y="117" width="347" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="347" id="VMq-Ty-Fem"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Select Item" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sMm-OQ-IZD">
+                                <rect key="frame" x="20.5" y="400.5" width="373" height="105"/>
+                                <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="sMm-OQ-IZD" firstAttribute="width" secondItem="vDu-zF-Fre" secondAttribute="width" multiplier="0.9" id="0Os-Es-Czh"/>
                             <constraint firstItem="sMm-OQ-IZD" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="1Ed-Rj-sfn"/>
-                            <constraint firstItem="sMm-OQ-IZD" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="73" id="rPl-yo-eNI"/>
+                            <constraint firstItem="sMm-OQ-IZD" firstAttribute="height" relation="greaterThanOrEqual" secondItem="vDu-zF-Fre" secondAttribute="height" multiplier="0.08" constant="40" id="Gxe-iA-RBt"/>
+                            <constraint firstItem="sMm-OQ-IZD" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" id="qZ9-8J-z99"/>
                         </constraints>
                     </view>
                     <connections>

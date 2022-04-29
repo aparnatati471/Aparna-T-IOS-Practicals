@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5yD-uu-w7T">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--OtherUI Components View Controller-->
+        <!--Date Picker View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" customClass="OtherUIComponentsViewController" customModule="IOSPracticals" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="DatePickerViewController" customModule="IOSPracticals" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,12 +22,6 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMf-dd-WzJ">
                                 <rect key="frame" x="182" y="376" width="50" height="26"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezp-4n-hQg">
-                                <rect key="frame" x="207" y="583" width="0.0" height="0.0"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -50,21 +44,83 @@
                             <constraint firstItem="tEW-3n-WeW" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="FwC-gH-7FK"/>
                             <constraint firstItem="bMf-dd-WzJ" firstAttribute="top" secondItem="tEW-3n-WeW" secondAttribute="bottom" constant="25" id="O57-0C-9b5"/>
                             <constraint firstItem="tEW-3n-WeW" firstAttribute="top" secondItem="SMa-D5-hbe" secondAttribute="bottom" constant="27" id="Oo5-jg-94i"/>
-                            <constraint firstItem="ezp-4n-hQg" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="SWR-Ev-Mx2"/>
                             <constraint firstItem="SMa-D5-hbe" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="33" id="azt-ma-v7W"/>
                             <constraint firstItem="SMa-D5-hbe" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="iYP-8H-2n7"/>
-                            <constraint firstAttribute="bottom" secondItem="ezp-4n-hQg" secondAttribute="bottom" constant="313" id="rRQ-HP-rFc"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="datePick" destination="tEW-3n-WeW" id="3wv-wr-Lz1"/>
-                        <outlet property="dateSegment" destination="SMa-D5-hbe" id="wSA-GQ-Out"/>
-                        <outlet property="dispDateLable" destination="bMf-dd-WzJ" id="17m-Fr-CqY"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-15.942028985507248" y="-156.02678571428569"/>
+        </scene>
+        <!--Date Picker View Controller-->
+        <scene sceneID="95K-6o-bhI">
+            <objects>
+                <viewController id="5yD-uu-w7T" customClass="DatePickerViewController" customModule="IOSPracticals" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rjk-cg-qIl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5EP-k5-vSg">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hmN-xc-8sm">
+                                        <rect key="frame" x="0.0" y="8" width="414" height="981.5"/>
+                                        <subviews>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Mj0-wi-iv5">
+                                                <rect key="frame" x="41.5" y="159" width="331" height="32"/>
+                                                <segments>
+                                                    <segment title="Wheels"/>
+                                                    <segment title="Compact"/>
+                                                    <segment title="Inline"/>
+                                                </segments>
+                                            </segmentedControl>
+                                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="kjq-di-iCQ">
+                                                <rect key="frame" x="47" y="247" width="320" height="216"/>
+                                            </datePicker>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oIs-wV-2BN">
+                                                <rect key="frame" x="182" y="555.5" width="50" height="26"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="kjq-di-iCQ" firstAttribute="top" secondItem="Mj0-wi-iv5" secondAttribute="bottom" multiplier="1.3" id="MQ0-PG-T74"/>
+                                            <constraint firstItem="oIs-wV-2BN" firstAttribute="top" secondItem="kjq-di-iCQ" secondAttribute="bottom" multiplier="1.2" id="izw-48-xlV"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="hmN-xc-8sm" firstAttribute="leading" secondItem="5EP-k5-vSg" secondAttribute="leading" id="059-YK-Al0"/>
+                                    <constraint firstAttribute="bottom" secondItem="hmN-xc-8sm" secondAttribute="bottom" constant="682" id="Ds8-Eu-jpI"/>
+                                    <constraint firstItem="hmN-xc-8sm" firstAttribute="height" secondItem="5EP-k5-vSg" secondAttribute="height" multiplier="1.2" id="Fmd-f8-Hrw"/>
+                                    <constraint firstItem="hmN-xc-8sm" firstAttribute="top" secondItem="5EP-k5-vSg" secondAttribute="top" constant="8" id="VmO-VJ-y7y"/>
+                                    <constraint firstItem="hmN-xc-8sm" firstAttribute="width" secondItem="5EP-k5-vSg" secondAttribute="width" id="bOc-cf-Wb3"/>
+                                    <constraint firstAttribute="trailing" secondItem="hmN-xc-8sm" secondAttribute="trailing" constant="174" id="zvG-JB-vup"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TNK-pB-fpF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Mj0-wi-iv5" firstAttribute="width" secondItem="TNK-pB-fpF" secondAttribute="width" multiplier="0.8" id="Aua-dz-hBB"/>
+                            <constraint firstItem="kjq-di-iCQ" firstAttribute="centerX" secondItem="TNK-pB-fpF" secondAttribute="centerX" id="IAN-2o-5UL"/>
+                            <constraint firstItem="TNK-pB-fpF" firstAttribute="bottom" secondItem="5EP-k5-vSg" secondAttribute="bottom" id="ONh-Y8-Bes"/>
+                            <constraint firstItem="Mj0-wi-iv5" firstAttribute="centerX" secondItem="TNK-pB-fpF" secondAttribute="centerX" id="S62-Eq-zQw"/>
+                            <constraint firstItem="5EP-k5-vSg" firstAttribute="top" secondItem="TNK-pB-fpF" secondAttribute="top" id="gS9-2W-fL8"/>
+                            <constraint firstItem="Mj0-wi-iv5" firstAttribute="centerY" secondItem="TNK-pB-fpF" secondAttribute="centerY" multiplier="0.5" id="rIj-3K-Ps4"/>
+                            <constraint firstItem="5EP-k5-vSg" firstAttribute="leading" secondItem="TNK-pB-fpF" secondAttribute="leading" id="rrZ-7X-WDb"/>
+                            <constraint firstItem="kjq-di-iCQ" firstAttribute="width" secondItem="TNK-pB-fpF" secondAttribute="width" multiplier="0.772947" id="shH-34-f9f"/>
+                            <constraint firstItem="oIs-wV-2BN" firstAttribute="centerX" secondItem="TNK-pB-fpF" secondAttribute="centerX" id="tno-x1-3AQ"/>
+                            <constraint firstItem="TNK-pB-fpF" firstAttribute="trailing" secondItem="5EP-k5-vSg" secondAttribute="trailing" id="xmg-ck-E6e"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="09J-bF-paz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="974" y="-165"/>
         </scene>
     </scenes>
     <resources>
