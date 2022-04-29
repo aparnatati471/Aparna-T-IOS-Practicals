@@ -16,14 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Nva-wf-EpH">
-                                <rect key="frame" x="62" y="403" width="290" height="100"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Nva-wf-EpH">
+                                <rect key="frame" x="62" y="392" width="290" height="122"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="42j-Pn-P8Y">
-                                        <rect key="frame" x="0.0" y="0.0" width="290" height="40"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="Y5Y-I4-hPo"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="0.0" width="290" height="51"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="URLSession">
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="19"/>
@@ -34,7 +31,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qdo-ZF-1Dy">
-                                        <rect key="frame" x="0.0" y="60" width="290" height="40"/>
+                                        <rect key="frame" x="0.0" y="71" width="290" height="51"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Alamofire">
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="19"/>
@@ -45,9 +42,6 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="qdo-ZF-1Dy" firstAttribute="height" secondItem="42j-Pn-P8Y" secondAttribute="height" id="TWd-QB-ZOi"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
@@ -55,6 +49,7 @@
                         <constraints>
                             <constraint firstItem="Nva-wf-EpH" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.7" id="FTt-hb-GqM"/>
                             <constraint firstItem="Nva-wf-EpH" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="Ibg-b5-1KE"/>
+                            <constraint firstItem="Nva-wf-EpH" firstAttribute="height" relation="greaterThanOrEqual" secondItem="vDu-zF-Fre" secondAttribute="height" multiplier="0.1" constant="40" id="unM-qn-5Pb"/>
                             <constraint firstItem="Nva-wf-EpH" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" id="ye3-Ik-Mpc"/>
                         </constraints>
                     </view>
