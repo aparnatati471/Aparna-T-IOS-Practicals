@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
@@ -28,39 +28,12 @@
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
                                         </buttonConfiguration>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zcf-Ra-GfG">
-                                        <rect key="frame" x="0.0" y="49.5" width="256" height="37"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="UITableViewWithSections">
-                                            <backgroundConfiguration key="background" cornerRadius="20"/>
-                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="19"/>
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
-                                        </buttonConfiguration>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmt-9y-CTs">
-                                        <rect key="frame" x="0.0" y="96.5" width="256" height="39.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="UITableViewWithXib">
-                                            <backgroundConfiguration key="background" cornerRadius="20"/>
-                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
-                                        </buttonConfiguration>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A2Y-Tz-6jd">
-                                        <rect key="frame" x="0.0" y="146" width="256" height="39.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="UIScrollViewDemo">
-                                            <backgroundConfiguration key="background" cornerRadius="20"/>
-                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
-                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="BXW-gY-g54" kind="show" id="3ac-xv-Cd2"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tCg-eA-plB">
-                                        <rect key="frame" x="0.0" y="195.5" width="256" height="39.5"/>
+                                        <rect key="frame" x="0.0" y="49.5" width="256" height="39.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="UITableView Demo">
                                             <backgroundConfiguration key="background" cornerRadius="20"/>
@@ -68,6 +41,48 @@
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="823-sr-N7R" kind="show" id="hBb-9G-RcR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zcf-Ra-GfG">
+                                        <rect key="frame" x="0.0" y="99" width="256" height="37"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="UITableViewWithSections">
+                                            <backgroundConfiguration key="background" cornerRadius="20"/>
+                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="19"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="rPs-nB-Rnp" kind="show" id="qzo-KQ-1E3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmt-9y-CTs">
+                                        <rect key="frame" x="0.0" y="146" width="256" height="39.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="UITableViewWithXib">
+                                            <backgroundConfiguration key="background" cornerRadius="20"/>
+                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="gdL-KG-pq3" kind="show" id="VJc-kz-L4t"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A2Y-Tz-6jd">
+                                        <rect key="frame" x="0.0" y="195.5" width="256" height="39.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="UIScrollViewDemo">
+                                            <backgroundConfiguration key="background" cornerRadius="20"/>
+                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="SzB-Lg-b92" kind="show" id="HrU-qa-23B"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -84,6 +99,56 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2.8985507246376816" y="34.821428571428569"/>
+        </scene>
+        <!--PracticalOne-->
+        <scene sceneID="ShN-0U-7F3">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PracticalOne" id="BXW-gY-g54" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="0yF-G0-JRP"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qZd-4U-foa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="563" y="-35"/>
+        </scene>
+        <!--UITableView-->
+        <scene sceneID="Ho9-S2-yIm">
+            <objects>
+                <viewControllerPlaceholder storyboardName="UITableView" id="823-sr-N7R" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="r2o-2x-EOo"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fYq-VI-XuM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="585" y="1"/>
+        </scene>
+        <!--UITableViewWithSections-->
+        <scene sceneID="lmb-4d-pmc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="UITableViewWithSections" id="rPs-nB-Rnp" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="WfU-TJ-Os1"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R1m-uu-TCP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="618" y="35"/>
+        </scene>
+        <!--TableViewWithXib-->
+        <scene sceneID="gfB-DH-5Pk">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TableViewWithXib" referencedIdentifier="TableViewWithXib" id="gdL-KG-pq3" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="dEo-hr-C1U"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0xo-Lm-MtP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="593" y="69"/>
+        </scene>
+        <!--ScrollViewDemo-->
+        <scene sceneID="B2v-aJ-Ck0">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ScrollViewDemo" id="SzB-Lg-b92" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="EqB-RH-84O"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ryf-gx-klS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="585" y="100"/>
         </scene>
     </scenes>
     <resources>

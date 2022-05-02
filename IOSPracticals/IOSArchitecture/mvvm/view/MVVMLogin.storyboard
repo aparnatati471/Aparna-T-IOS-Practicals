@@ -69,9 +69,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="1ky-6L-6ZF">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="1ky-6L-6ZF">
                                 <rect key="frame" x="0.0" y="44" width="414" height="852"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="159" id="K6O-e5-WQc" customClass="MvvmTableViewCell" customModule="IOSPracticals" customModuleProvider="target">
@@ -128,6 +127,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gP1-8q-QGl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1ky-6L-6ZF" firstAttribute="bottom" secondItem="gP1-8q-QGl" secondAttribute="bottom" constant="34" id="5lC-fr-PRJ"/>
+                            <constraint firstItem="1ky-6L-6ZF" firstAttribute="top" secondItem="gP1-8q-QGl" secondAttribute="top" id="nks-MR-Xjl"/>
+                            <constraint firstItem="1ky-6L-6ZF" firstAttribute="leading" secondItem="gP1-8q-QGl" secondAttribute="leading" id="vPi-kv-fjh"/>
+                            <constraint firstItem="gP1-8q-QGl" firstAttribute="trailing" secondItem="1ky-6L-6ZF" secondAttribute="trailing" id="ydO-al-aD7"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QKG-16-EGV"/>
                     <connections>

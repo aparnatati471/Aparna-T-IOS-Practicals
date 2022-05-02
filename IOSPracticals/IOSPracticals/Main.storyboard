@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qXs-7d-X5W">
-                                <rect key="frame" x="39" y="210" width="312" height="434"/>
+                                <rect key="frame" x="39" y="273.66666666666663" width="312" height="306.66666666666663"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wn-ns-fIy">
-                                        <rect key="frame" x="0.0" y="0.0" width="312" height="39.333333333333336"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="312" height="53.333333333333336"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="IOS(A)" cornerStyle="dynamic" titleAlignment="center">
                                             <backgroundConfiguration key="background" cornerRadius="20" strokeWidth="0.0"/>
@@ -32,73 +32,21 @@
                                             <segue destination="mTT-fL-uEN" kind="show" id="R0o-eD-oj1"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BmR-M6-Omi">
-                                        <rect key="frame" x="0.0" y="49.333333333333314" width="312" height="39.333333333333343"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ca5-V5-7rK">
+                                        <rect key="frame" x="0.0" y="63.333333333333314" width="312" height="53.333333333333343"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Practical One">
+                                        <buttonConfiguration key="configuration" style="filled" title="IOS(C)">
                                             <backgroundConfiguration key="background" cornerRadius="20"/>
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <segue destination="PT3-cK-lzP" kind="show" id="kvO-hS-OO6"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYV-7Q-oHh">
-                                        <rect key="frame" x="0.0" y="98.666666666666686" width="312" height="39.333333333333343"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="UITableView Demo">
-                                            <backgroundConfiguration key="background" cornerRadius="20"/>
-                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <segue destination="3jN-9o-NHD" kind="show" id="PRR-8L-qQS"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iip-HH-dDZ">
-                                        <rect key="frame" x="0.0" y="148" width="312" height="39.333333333333343"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="UITableViewWithSections">
-                                            <backgroundConfiguration key="background" cornerRadius="20"/>
-                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="19"/>
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <segue destination="VN7-Mm-blm" kind="show" id="h7I-vK-LIk"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7e-8g-9Ef">
-                                        <rect key="frame" x="0.0" y="197.33333333333331" width="312" height="39.333333333333343"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="UIScrollViewDemo">
-                                            <backgroundConfiguration key="background" cornerRadius="20"/>
-                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <segue destination="tqv-1u-Uib" kind="show" id="4j6-Nw-2f6"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iTP-Wa-det">
-                                        <rect key="frame" x="0.0" y="246.66666666666671" width="312" height="39.333333333333343"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="UITableViewWithXib">
-                                            <backgroundConfiguration key="background" cornerRadius="20"/>
-                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <segue destination="ZBE-pJ-fpE" kind="show" id="LGl-Px-grx"/>
+                                            <segue destination="SMt-hG-4Fe" kind="show" id="29n-lb-VAO"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZqF-f8-GMA">
-                                        <rect key="frame" x="0.0" y="296" width="312" height="39.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="126.66666666666661" width="312" height="53.333333333333329"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="IOS Life Cycle">
                                             <backgroundConfiguration key="background" cornerRadius="20"/>
@@ -111,7 +59,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M0i-Ag-YyF">
-                                        <rect key="frame" x="0.0" y="345.33333333333337" width="312" height="39.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="190" width="312" height="53.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="IOS(D)">
                                             <backgroundConfiguration key="background" cornerRadius="20"/>
@@ -124,7 +72,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LSW-d5-GbZ">
-                                        <rect key="frame" x="0.0" y="394.66666666666663" width="312" height="39.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="253.33333333333334" width="312" height="53.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Architecture">
                                             <backgroundConfiguration key="background" cornerRadius="20"/>
@@ -145,7 +93,7 @@
                         <constraints>
                             <constraint firstItem="qXs-7d-X5W" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.8" id="4db-Yd-Mlk"/>
                             <constraint firstItem="qXs-7d-X5W" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="AlP-7b-c2J"/>
-                            <constraint firstItem="qXs-7d-X5W" firstAttribute="height" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.563534" id="EXt-R4-iP7"/>
+                            <constraint firstItem="qXs-7d-X5W" firstAttribute="height" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.4" id="EXt-R4-iP7"/>
                             <constraint firstItem="qXs-7d-X5W" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="ai8-cC-1JB"/>
                         </constraints>
                     </view>
@@ -155,16 +103,6 @@
             </objects>
             <point key="canvasLocation" x="632" y="45"/>
         </scene>
-        <!--TableViewWithXib-->
-        <scene sceneID="DCo-v3-3Lc">
-            <objects>
-                <viewControllerPlaceholder storyboardName="TableViewWithXib" referencedIdentifier="TableViewWithXib" id="ZBE-pJ-fpE" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="2uL-mg-oH6"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YEE-Hg-6ae" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1308" y="127"/>
-        </scene>
         <!--LifeCycleViewController-->
         <scene sceneID="nHq-yy-5VW">
             <objects>
@@ -173,7 +111,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xDA-wk-WlW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1289" y="158"/>
+            <point key="canvasLocation" x="1308" y="45"/>
         </scene>
         <!--NavigationController-->
         <scene sceneID="cmM-Wb-nKd">
@@ -183,7 +121,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eut-hA-0cr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1251" y="195"/>
+            <point key="canvasLocation" x="1249" y="140"/>
         </scene>
         <!--ArchitectureIndex-->
         <scene sceneID="XFy-kX-L1T">
@@ -193,47 +131,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ann-bj-ekS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1158" y="242"/>
+            <point key="canvasLocation" x="1308" y="87"/>
         </scene>
-        <!--ScrollViewDemo-->
-        <scene sceneID="k8s-wG-FaY">
+        <!--UICompoentsIndex-->
+        <scene sceneID="bgw-MQ-daJ">
             <objects>
-                <viewControllerPlaceholder storyboardName="ScrollViewDemo" id="tqv-1u-Uib" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="Ytq-KX-HiH"/>
+                <viewControllerPlaceholder storyboardName="UICompoentsIndex" id="SMt-hG-4Fe" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="77x-EI-Pem"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KSt-cn-pbB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U7x-SV-fBk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1308" y="96"/>
-        </scene>
-        <!--PracticalOne-->
-        <scene sceneID="y6j-oq-obH">
-            <objects>
-                <viewControllerPlaceholder storyboardName="PracticalOne" id="PT3-cK-lzP" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="XXc-KA-W48"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="krM-UT-bdd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1288" y="-15"/>
-        </scene>
-        <!--UITableViewWithSections-->
-        <scene sceneID="fhV-Mn-Q42">
-            <objects>
-                <viewControllerPlaceholder storyboardName="UITableViewWithSections" referencedIdentifier="UITableViewWithSections" id="VN7-Mm-blm" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="M9E-ul-xt4"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ttl-Lo-aDg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1352" y="64"/>
-        </scene>
-        <!--UITableView-->
-        <scene sceneID="YzA-iE-aWy">
-            <objects>
-                <viewControllerPlaceholder storyboardName="UITableView" referencedIdentifier="UITableView" id="3jN-9o-NHD" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="cOI-sp-553"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cS0-jL-Rh9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1290" y="26"/>
+            <point key="canvasLocation" x="1285" y="4"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="7vw-Im-NPg">
