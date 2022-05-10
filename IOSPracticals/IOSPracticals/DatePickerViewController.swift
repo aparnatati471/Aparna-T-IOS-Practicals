@@ -4,8 +4,6 @@ class OtherUIComponentsViewController: UIViewController {
 
     // MARK: Outlets
     @IBOutlet weak var dateSegment: UISegmentedControl!
-    @IBOutlet weak var toolbarlabel: UILabel!
-    @IBOutlet weak var toolbar: UIToolbar!
     @IBOutlet weak var dispDateLable: UILabel!
     @IBOutlet weak var datePick: UIDatePicker!
     var isPlaying = false

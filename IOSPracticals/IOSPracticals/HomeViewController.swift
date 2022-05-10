@@ -1,6 +1,6 @@
 import UIKit
 
-let productData = Data(
+let productData = ProductData(
                     productName:  ["Grocery", "Mobiles", "Books", "Car", "Men's Fashion", "Women's Fashion", "Shoes"],
                     productImages: ["grocery", "mobiles", "book", "car", "men", "women", "shoes"]
                     )

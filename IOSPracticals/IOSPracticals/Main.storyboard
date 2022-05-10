@@ -16,132 +16,152 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wn-ns-fIy">
-                                <rect key="frame" x="58.666666666666657" y="94" width="273" height="43"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="43" id="Icd-3q-ahc"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="IOS(A)" cornerStyle="dynamic" titleAlignment="center">
-                                    <backgroundConfiguration key="background" cornerRadius="20" strokeWidth="0.0"/>
-                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="KkT-bo-bbs" kind="show" identifier="" id="CHV-Ho-wNV"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BmR-M6-Omi">
-                                <rect key="frame" x="58.666666666666657" y="157" width="273" height="43"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="IOS(C) - One">
-                                    <backgroundConfiguration key="background" cornerRadius="20"/>
-                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="PT3-cK-lzP" kind="show" id="kvO-hS-OO6"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYV-7Q-oHh">
-                                <rect key="frame" x="58.666666666666657" y="220" width="273" height="43"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="UITableView Demo">
-                                    <backgroundConfiguration key="background" cornerRadius="20"/>
-                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="3jN-9o-NHD" kind="show" id="PRR-8L-qQS"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iip-HH-dDZ">
-                                <rect key="frame" x="58.666666666666657" y="283" width="273" height="43"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="UITableViewWithSections">
-                                    <backgroundConfiguration key="background" cornerRadius="20"/>
-                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="VN7-Mm-blm" kind="show" id="h7I-vK-LIk"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7e-8g-9Ef">
-                                <rect key="frame" x="58.666666666666657" y="346" width="273" height="43"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="UIScrollViewDemo">
-                                    <backgroundConfiguration key="background" cornerRadius="20"/>
-                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="tqv-1u-Uib" kind="show" id="4j6-Nw-2f6"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iTP-Wa-det">
-                                <rect key="frame" x="58.666666666666657" y="409" width="273" height="43"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="UITableViewWithXib">
-                                    <backgroundConfiguration key="background" cornerRadius="20"/>
-                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="ZBE-pJ-fpE" kind="show" id="LGl-Px-grx"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G11-3s-gXH">
-                                <rect key="frame" x="58.666666666666657" y="472" width="273" height="43"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="IOS(C)- Two &amp; Three">
-                                    <backgroundConfiguration key="background" cornerRadius="20"/>
-                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="nPU-0h-imh" kind="show" id="WcA-YX-g2W"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fWc-b1-iA9">
+                                <rect key="frame" x="60" y="205.66666666666663" width="270" height="487"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wn-ns-fIy">
+                                        <rect key="frame" x="0.0" y="0.0" width="270" height="43"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="43" id="Icd-3q-ahc"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="IOS(A)" cornerStyle="dynamic" titleAlignment="center">
+                                            <backgroundConfiguration key="background" cornerRadius="20" strokeWidth="0.0"/>
+                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="KkT-bo-bbs" kind="show" identifier="" id="CHV-Ho-wNV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BmR-M6-Omi">
+                                        <rect key="frame" x="0.0" y="53.000000000000028" width="270" height="39.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="IOS(C) - One">
+                                            <backgroundConfiguration key="background" cornerRadius="20"/>
+                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="PT3-cK-lzP" kind="show" id="kvO-hS-OO6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYV-7Q-oHh">
+                                        <rect key="frame" x="0.0" y="102.33333333333334" width="270" height="39.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="UITableView Demo">
+                                            <backgroundConfiguration key="background" cornerRadius="20"/>
+                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="3jN-9o-NHD" kind="show" id="PRR-8L-qQS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iip-HH-dDZ">
+                                        <rect key="frame" x="0.0" y="151.66666666666666" width="270" height="39.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="UITableViewWithSections">
+                                            <backgroundConfiguration key="background" cornerRadius="20"/>
+                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="VN7-Mm-blm" kind="show" id="h7I-vK-LIk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7e-8g-9Ef">
+                                        <rect key="frame" x="0.0" y="201.00000000000003" width="270" height="39.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="UIScrollViewDemo">
+                                            <backgroundConfiguration key="background" cornerRadius="20"/>
+                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="tqv-1u-Uib" kind="show" id="4j6-Nw-2f6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iTP-Wa-det">
+                                        <rect key="frame" x="0.0" y="250.33333333333334" width="270" height="39.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="UITableViewWithXib">
+                                            <backgroundConfiguration key="background" cornerRadius="20"/>
+                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="AH9-Fe-6cg" kind="show" id="qLQ-ub-yaY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G11-3s-gXH">
+                                        <rect key="frame" x="0.0" y="299.66666666666663" width="270" height="39.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="IOS(C)- Two &amp; Three">
+                                            <backgroundConfiguration key="background" cornerRadius="20"/>
+                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="nPU-0h-imh" kind="show" id="eqf-b1-BAE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S0C-be-8HU">
+                                        <rect key="frame" x="0.0" y="349" width="270" height="39.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="IOS LIfe Cycles">
+                                            <backgroundConfiguration key="background" cornerRadius="20"/>
+                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="Qra-k5-gMU" kind="show" id="iVB-as-9jI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M0i-Ag-YyF">
+                                        <rect key="frame" x="0.0" y="398.33333333333337" width="270" height="39.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="IOS(D) UINavigation">
+                                            <backgroundConfiguration key="background" cornerRadius="20"/>
+                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6PR-5u-5QU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHB-rS-qjG">
+                                        <rect key="frame" x="0.0" y="447.66666666666674" width="270" height="39.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="IOS Web Services">
+                                            <backgroundConfiguration key="background" cornerRadius="20"/>
+                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="21"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="nBi-eA-VMX" kind="show" id="CNk-Ku-oT4"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="G11-3s-gXH" firstAttribute="centerX" secondItem="iTP-Wa-det" secondAttribute="centerX" id="2in-uw-gwX"/>
-                            <constraint firstItem="BmR-M6-Omi" firstAttribute="width" secondItem="1wn-ns-fIy" secondAttribute="width" id="2tY-vm-2US"/>
-                            <constraint firstItem="u7e-8g-9Ef" firstAttribute="top" secondItem="Iip-HH-dDZ" secondAttribute="bottom" constant="20" id="7mi-pd-oNS"/>
-                            <constraint firstItem="Iip-HH-dDZ" firstAttribute="height" secondItem="jYV-7Q-oHh" secondAttribute="height" id="832-uT-Nrc"/>
-                            <constraint firstItem="1wn-ns-fIy" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8PJ-ed-55R"/>
-                            <constraint firstItem="jYV-7Q-oHh" firstAttribute="top" secondItem="BmR-M6-Omi" secondAttribute="bottom" constant="20" id="8Ua-dp-tc3"/>
-                            <constraint firstItem="Iip-HH-dDZ" firstAttribute="top" secondItem="jYV-7Q-oHh" secondAttribute="bottom" constant="20" id="AYT-NV-QVT"/>
-                            <constraint firstItem="Iip-HH-dDZ" firstAttribute="width" secondItem="jYV-7Q-oHh" secondAttribute="width" id="B9f-G7-XFO"/>
-                            <constraint firstItem="jYV-7Q-oHh" firstAttribute="width" secondItem="BmR-M6-Omi" secondAttribute="width" id="Ezj-d0-y7T"/>
-                            <constraint firstItem="Iip-HH-dDZ" firstAttribute="centerX" secondItem="jYV-7Q-oHh" secondAttribute="centerX" id="N9P-bv-I1T"/>
-                            <constraint firstItem="1wn-ns-fIy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" multiplier="0.5" constant="50" id="PAI-P8-LsS"/>
-                            <constraint firstItem="BmR-M6-Omi" firstAttribute="centerX" secondItem="1wn-ns-fIy" secondAttribute="centerX" id="TWa-wD-Ekw"/>
-                            <constraint firstItem="jYV-7Q-oHh" firstAttribute="centerX" secondItem="BmR-M6-Omi" secondAttribute="centerX" id="XdQ-q0-e04"/>
-                            <constraint firstItem="BmR-M6-Omi" firstAttribute="top" secondItem="1wn-ns-fIy" secondAttribute="bottom" constant="20" id="YTU-4u-KkV"/>
-                            <constraint firstItem="iTP-Wa-det" firstAttribute="width" secondItem="u7e-8g-9Ef" secondAttribute="width" id="ZpJ-7s-bXB"/>
-                            <constraint firstItem="u7e-8g-9Ef" firstAttribute="centerX" secondItem="Iip-HH-dDZ" secondAttribute="centerX" id="aTb-nw-VqV"/>
-                            <constraint firstItem="u7e-8g-9Ef" firstAttribute="width" secondItem="Iip-HH-dDZ" secondAttribute="width" id="eAk-IZ-ToW"/>
-                            <constraint firstItem="G11-3s-gXH" firstAttribute="width" secondItem="iTP-Wa-det" secondAttribute="width" id="eoY-lx-7LM"/>
-                            <constraint firstItem="iTP-Wa-det" firstAttribute="height" secondItem="u7e-8g-9Ef" secondAttribute="height" id="fJ7-q5-hZA"/>
-                            <constraint firstItem="BmR-M6-Omi" firstAttribute="height" secondItem="1wn-ns-fIy" secondAttribute="height" id="iiC-6z-w8U"/>
-                            <constraint firstItem="1wn-ns-fIy" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.7" id="kWW-Gl-52L"/>
-                            <constraint firstItem="iTP-Wa-det" firstAttribute="top" secondItem="u7e-8g-9Ef" secondAttribute="bottom" constant="20" id="kb7-9D-BW0"/>
-                            <constraint firstItem="iTP-Wa-det" firstAttribute="centerX" secondItem="u7e-8g-9Ef" secondAttribute="centerX" id="o4v-hX-Q1s"/>
-                            <constraint firstItem="u7e-8g-9Ef" firstAttribute="height" secondItem="Iip-HH-dDZ" secondAttribute="height" id="pB2-Xa-Hah"/>
-                            <constraint firstItem="jYV-7Q-oHh" firstAttribute="height" secondItem="BmR-M6-Omi" secondAttribute="height" id="xSb-gm-mzJ"/>
-                            <constraint firstItem="G11-3s-gXH" firstAttribute="top" secondItem="iTP-Wa-det" secondAttribute="bottom" constant="20" id="yNP-Ha-pMx"/>
-                            <constraint firstItem="G11-3s-gXH" firstAttribute="height" secondItem="iTP-Wa-det" secondAttribute="height" id="z3E-DT-TCO"/>
+                            <constraint firstItem="fWc-b1-iA9" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="cfm-8Q-eoj"/>
+                            <constraint firstItem="fWc-b1-iA9" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="esY-Zk-hFl"/>
+                            <constraint firstItem="fWc-b1-iA9" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.692308" id="fpa-kn-21p"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="cIv-lx-btF"/>
@@ -150,15 +170,35 @@
             </objects>
             <point key="canvasLocation" x="315" y="13"/>
         </scene>
-        <!--TableViewWithXib-->
-        <scene sceneID="DCo-v3-3Lc">
+        <!--LifeCycleViewController-->
+        <scene sceneID="nHq-yy-5VW">
             <objects>
-                <viewControllerPlaceholder storyboardName="TableViewWithXib" referencedIdentifier="TableViewWithXib" id="ZBE-pJ-fpE" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="2uL-mg-oH6"/>
+                <viewControllerPlaceholder storyboardName="LifeCycleViewController" id="Qra-k5-gMU" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Btf-ch-DmX"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YEE-Hg-6ae" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xDA-wk-WlW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="949" y="86"/>
+            <point key="canvasLocation" x="958" y="122"/>
+        </scene>
+        <!--WebServices-->
+        <scene sceneID="bO8-Ue-rOU">
+            <objects>
+                <viewControllerPlaceholder storyboardName="WebServices" id="nBi-eA-VMX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="nqs-Ee-Tn7"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nR4-hZ-hCG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="913" y="181"/>
+        </scene>
+        <!--NavigationController-->
+        <scene sceneID="cmM-Wb-nKd">
+            <objects>
+                <viewControllerPlaceholder storyboardName="NavigationController" id="7Rf-4n-isS" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="PvE-up-Xxn"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eut-hA-0cr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="943" y="151"/>
         </scene>
         <!--ScrollViewDemo-->
         <scene sceneID="k8s-wG-FaY">
@@ -168,7 +208,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KSt-cn-pbB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="907" y="45"/>
+            <point key="canvasLocation" x="922" y="13"/>
         </scene>
         <!--PracticalOne-->
         <scene sceneID="y6j-oq-obH">
@@ -178,7 +218,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="krM-UT-bdd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="891" y="-60"/>
+            <point key="canvasLocation" x="906" y="-89"/>
         </scene>
         <!--UITableViewWithSections-->
         <scene sceneID="fhV-Mn-Q42">
@@ -188,7 +228,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ttl-Lo-aDg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="950" y="13"/>
+            <point key="canvasLocation" x="968" y="-21"/>
         </scene>
         <!--UITableView-->
         <scene sceneID="YzA-iE-aWy">
@@ -198,7 +238,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cS0-jL-Rh9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="922" y="-31"/>
+            <point key="canvasLocation" x="907" y="-53"/>
+        </scene>
+        <!--TableViewWithXib-->
+        <scene sceneID="Pu3-nN-jru">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="TableViewControllerXib" storyboardName="TableViewWithXib" id="AH9-Fe-6cg" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="23U-Iq-VPH"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Ex-sh-JM0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="934" y="56"/>
         </scene>
         <!--UISwitchDemo-->
         <scene sceneID="vFs-tV-gK9">
@@ -208,7 +258,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eVM-Gm-Dkk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="965" y="117"/>
+            <point key="canvasLocation" x="922" y="87"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OVd-K1-RRn">
